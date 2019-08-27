@@ -80,9 +80,11 @@
 }
 .list .list-item .list-item-body p {
   font-size: 16px;
+  height: 303px;
+  max-height: 303px;
+  overflow-y: scroll;
   line-height: 25px;
   background-color: white;
-  height: 100%;
   display: flex;
   flex: 1;
 }
