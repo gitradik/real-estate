@@ -1,0 +1,25 @@
+.companies {
+  padding: 60px 0;
+}
+.companies .t {
+  margin-bottom: 30px;
+}
+.companies .t h2 {
+  color: black;
+}
+.companies .company-slider .company-item {
+  padding: 10px;
+}
+.companies .company-slider .company-item img {
+  margin: 0 auto;
+  height: auto;
+  max-width: 100%;
+}
+
+@media only screen and (min-width: 1200px) {
+  .companies .t {
+    margin-bottom: 60px;
+  }
+}
+
+/*# sourceMappingURL=companies.css.map */

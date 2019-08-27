@@ -1,0 +1,81 @@
+.done {
+  min-height: 100vh;
+  padding-top: 130px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: "Roboto", sans-serif !important;
+}
+.done .time-back {
+  display: flex;
+  align-items: center;
+}
+.done .time-back p {
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+}
+.done .done-text {
+  text-align: center;
+}
+.done .done-text h3 {
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+.done .done-text p {
+  margin-top: 30px;
+  font-size: 22px;
+  color: #e7d885;
+  font-weight: 300;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+  font-style: italic;
+}
+.done .order a {
+  outline: none;
+  text-transform: uppercase;
+  padding: 20px 50px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  transition: 0.3s;
+  border: 2px solid transparent;
+  color: black;
+  background: #fbb36c;
+  background: -moz-linear-gradient(45deg, #fbb36c 0%, #fbf6b8 50%, #fbf6b8 51%, #fbb36c 100%);
+  background: -webkit-linear-gradient(45deg, #fbb36c 0%, #fbf6b8 50%, #fbf6b8 51%, #fbb36c 100%);
+  background: linear-gradient(45deg, #fbb36c 0%, #fbf6b8 50%, #fbf6b8 51%, #fbb36c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#fbb36c", endColorstr="#fbb36c",GradientType=1 );
+}
+.done .order a:hover {
+  transition: 0.3s;
+  background: transparent;
+  color: #fbb36c;
+  border-color: #fbb36c;
+}
+.done .socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+.done .socials a {
+  font-size: 28px;
+  color: #e7d885;
+  margin-right: 15px;
+}
+.done .socials a:last-child {
+  margin-right: 0;
+}
+.done img {
+  height: auto;
+  max-width: 200px;
+  margin: 30px auto;
+}
+
+/*# sourceMappingURL=done.css.map */

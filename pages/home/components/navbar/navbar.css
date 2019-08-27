@@ -1,0 +1,105 @@
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 998;
+  transition: 0.2s;
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: translateY(-100%);
+}
+.navbar .navbar-brand {
+  padding: 0;
+}
+.navbar .navbar-brand img {
+  height: auto;
+  max-width: 150px;
+}
+.navbar .navbar-toggler {
+  outline: none;
+  border-color: rgba(255, 255, 255, 0.7);
+  border-radius: 2px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  outline: none;
+  border-radius: 2px;
+  font-size: 16px;
+  font-weight: 400;
+  transition: 0.2s;
+  color: white;
+  border: 1px solid transparent;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  transition: 0.2s;
+  color: rgba(255, 255, 255, 0.7);
+}
+.navbar .navbar-nav .nav-order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.navbar .navbar-nav .nav-order .nav-link-ord {
+  outline: none;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border-radius: 0;
+  font-size: 16px;
+  font-weight: 700;
+  transition: 0.3s;
+  border: 2px solid #F8EB92;
+  color: #F8EB92;
+  background-color: transparent;
+}
+.navbar .navbar-nav .nav-order .nav-link-ord:hover {
+  transition: 0.3s;
+  background: #F8EB92;
+  color: black;
+}
+.navbar .navbar-nav .nav-order .nav-number {
+  padding: 2px;
+  position: absolute;
+  left: -81%;
+  top: -20px;
+}
+
+.navbar-in {
+  transition: 0.2s;
+  background-color: rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+  transform: translateY(0);
+}
+@media only screen and (min-width: 992px) {
+  .navbar .navbar-nav .nav-item .nav-link {
+    margin-right: 10px;
+  }
+}
+@media only screen and (min-width: 1629px) {
+  .navbar {
+    padding: 3px 200px;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .navbar .navbar-brand img {
+    max-width: 100px;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    font-size: 15px;
+    font-weight: 900;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .navbar .navbar-nav {
+    align-items: center;
+  }
+  .navbar .navbar-nav .nav-item .nav-link {
+    display: inline-block;
+  }
+  .navbar .navbar-nav .nav-order .nav-number {
+    left: 0;
+  }
+}
+
+/*# sourceMappingURL=navbar.css.map */

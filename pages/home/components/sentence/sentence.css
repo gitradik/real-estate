@@ -1,0 +1,169 @@
+.sentence {
+  overflow: hidden;
+  position: relative;
+  padding: 60px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-color: white;
+}
+.sentence img {
+  height: auto;
+  max-width: 100%;
+}
+.sentence .t {
+  margin-bottom: 50px;
+  border-radius: 2px;
+}
+.sentence .t h3 {
+  color: black;
+}
+.sentence .t p {
+  text-align: center;
+  line-height: 28px;
+  font-size: 24px;
+  font-weight: 300;
+  color: black;
+}
+.sentence .t p span {
+  font-size: 28px;
+  font-weight: 500;
+  text-decoration: underline;
+}
+.sentence .t-desc {
+  margin-bottom: 0;
+  max-width: 800px;
+  padding: 10px;
+  border-radius: 3px;
+  text-align: left;
+  position: relative;
+}
+.sentence .t-desc .t-white {
+  background-color: white;
+  padding: 15px;
+}
+.sentence .t-desc p {
+  position: relative;
+  z-index: 2;
+  padding: 0;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.sentence .t-desc p span {
+  font-weight: 900;
+  text-decoration: none;
+}
+.sentence .t-desc p:last-child {
+  margin-bottom: 0;
+}
+.sentence .t-desc p:first-child {
+  font-weight: 600;
+  color: #232a72;
+}
+
+.video-slider {
+  margin: 0;
+}
+.video-slider .slick-dots li button:before {
+  background-color: #232a72 !important;
+}
+.video-slider .slick-slide {
+  padding: 12px;
+  position: relative;
+  border: none;
+}
+.video-slider .slick-slide:hover img {
+  transition: 0.2s;
+  border: 2px solid white;
+  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.4);
+}
+.video-slider .slick-slide:hover .v-link .v-play {
+  transition: 2s;
+  background-color: white;
+}
+.video-slider .slick-slide .v-link .v-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 80px;
+  width: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+.video-slider .slick-slide .v-link .v-play i {
+  font-size: 66px;
+  margin-right: -4px;
+  margin-bottom: -4px;
+  transition: 0.2s;
+  color: #232a72;
+}
+.video-slider .slick-slide .v-link:hover .v-play {
+  background: none;
+}
+.video-slider .slick-slide .v-link:hover .v-play i {
+  transition: 0.2s;
+  color: white;
+}
+.video-slider img {
+  border-radius: 4px;
+  transition: 0.2s;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+@media only screen and (min-width: 1200px) {
+  .sentence .t {
+    margin-bottom: 80px;
+  }
+  .sentence .t-desc {
+    margin-bottom: 0;
+  }
+  .sentence .t-desc p {
+    font-size: 14px;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .sentence .t-desc p {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 1700px) {
+  .sentence .t-desc p {
+    font-size: 21px;
+  }
+}
+@media only screen and (max-width: 1399px) {
+  .sentence .t-desc p {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .sentence .t-desc {
+    max-width: 679px;
+  }
+  .sentence .video-slider .slick-slide {
+    display: flex;
+    justify-content: center;
+  }
+  .sentence .video-slider .v-link {
+    display: inline-block;
+  }
+  .sentence .video-slider .v-link .v-box {
+    position: relative;
+    max-width: 500px;
+  }
+}
+@media only screen and (max-width: 349px) {
+  .video-slider .slick-slide {
+    padding: 0;
+    margin: 0;
+  }
+}
+
+/*# sourceMappingURL=sentence.css.map */

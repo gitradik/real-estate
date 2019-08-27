@@ -1,0 +1,190 @@
+@import "data"
+
+body
+  font-family: 'Roboto', sans-serif!important
+
+.bg
+  position: absolute
+  top: 0
+  right: 0
+  left: 0
+  bottom: 0
+  z-index: 1
+  background-color: rgba(0,0,0,.35)
+
+.t
+  border-radius: 3px
+  display: flex
+  flex-direction: column
+  justify-content: center
+  text-align: center
+  width: 100%
+
+  .t-box
+    
+    img
+      height: auto
+      max-width: 100%
+
+  h1
+    color: white
+    font-size: 46px
+    font-weight: 600
+    background-position: center center
+    border-color: transparent
+    border-style: solid
+    text-shadow: 1px 1px 1px rgba(0,0,0,.3)
+
+  h2
+    color: white
+    font-size: 38px
+    font-weight: 500
+
+  h3
+    font-size: 28px
+    font-weight: 400
+    color: #fff
+
+  h4
+    font-size: 32px
+    font-weight: 900
+    color: #000
+
+    span
+      font-weight: 600
+
+  h5
+    font-size: 26px
+    font-weight: bold
+
+  h6
+    font-size: 28px
+    font-weight: 200
+    max-width: 760px
+    margin: 20px auto
+    font-style: italic
+
+  p
+
+.order
+  text-align: center
+
+  button
+    outline: none
+    text-transform: uppercase
+    padding: 15px 30px
+    border-radius: 0
+    font-size: 16px
+    font-weight: 700
+    transition: .3s
+    border: 2px solid $gold
+    color: $gold
+    background-color: transparent
+
+    &:hover
+      transition: .3s
+      background: $gold
+      color: black
+
+
+.slider, .team-slider, .video-slider, .list-slider, .portfolio-slider, .list-min-slider, .list-min-slider-2, .slider-nav, .slider-nav-second, .slider-for-second
+  position: relative
+  max-width: 100%
+
+  img
+    height: auto
+    max-width: 100%
+
+  .slick-dots
+    bottom: -35px
+
+    li
+
+      button
+
+        &:before
+          content: ''
+          border: 1px solid white
+          width: 25px
+          border-radius: 30px
+          height: 8px
+          transition: .2s
+          box-shadow: 0 2px 5px 0 rgba(0,0,0,.2)
+          background-color: $yellow_light
+
+      .active
+
+        &:before
+          transition: .2s
+          background: $yellow_light
+          box-shadow: 0 2px 5px 0 rgba(0,0,0,.7)
+
+  .arrow-slider
+    border: 0
+    outline: none
+    position: absolute
+    top: 0
+    bottom: 10px
+    padding: 0 15px
+    border-radius: 4px
+    transition: 2s
+    background-color: transparent
+
+    i
+      font-size: 20px
+      transition: .2s
+      color: black
+
+    &:hover
+      transition: 2s
+
+      i
+        transition: .2s
+        color: $yellow_light
+
+  .prev-arrow
+    z-index: 20
+    left: -40px
+
+  .next-arrow
+    right: -40px
+    z-index: 20
+
+
+  .slick-slide
+    margin: 0 10px
+    margin-bottom: 10px
+
+.check-list
+
+  .check-item
+    display: flex
+    align-items: center
+    margin-bottom: 25px
+
+    img
+      height: auto
+      max-width: 60px
+
+    p
+      font-size: 20px
+      font-weight: 400
+      margin-left: 10px
+
+    &:last-child
+      margin-bottom: 0
+
+.zoom-min-gallery, .zoom-gallery
+
+  a
+    cursor: pointer!important
+
+
+
+.gradient-box
+
+
+
+
+
+@import "main-media"

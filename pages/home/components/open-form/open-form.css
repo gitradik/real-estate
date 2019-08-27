@@ -1,0 +1,110 @@
+.open-form {
+  padding: 60px 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.open-form .bg {
+  background-color: rgba(0, 0, 0, 0.52);
+}
+.open-form .check-list {
+  padding: 15px;
+  display: flex;
+  flex: 1;
+  height: 100%;
+  border-radius: 0;
+  flex-direction: column;
+  justify-content: space-around;
+  position: relative;
+}
+.open-form .check-list .check-item {
+  color: white;
+  font-weight: 500;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+.open-form .ct {
+  position: relative;
+  z-index: 2;
+}
+.open-form .t {
+  padding-bottom: 30px;
+}
+.open-form .t h2 {
+  color: white;
+}
+.open-form form {
+  position: relative;
+}
+.open-form form .t h5 {
+  color: #e7d885;
+  line-height: 30px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+.open-form .br-t, .open-form .br-b, .open-form .br-l, .open-form .br-r {
+  position: absolute;
+  background: #fbb36c;
+  background: -moz-linear-gradient(45deg, #fbb36c 0%, #fbf6b8 50%, #fbf6b8 51%, #fbb36c 100%);
+  background: -webkit-linear-gradient(45deg, #fbb36c 0%, #fbf6b8 50%, #fbf6b8 51%, #fbb36c 100%);
+  background: linear-gradient(45deg, #fbb36c 0%, #fbf6b8 50%, #fbf6b8 51%, #fbb36c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#fbb36c", endColorstr="#fbb36c",GradientType=1 );
+}
+.open-form .br-t {
+  height: 10px;
+  top: -15px;
+  left: -15px;
+  right: -15px;
+}
+.open-form .br-b {
+  height: 10px;
+  bottom: -15px;
+  left: -15px;
+  right: -15px;
+}
+.open-form .br-l {
+  width: 10px;
+  bottom: -15px;
+  left: -15px;
+  top: -15px;
+}
+.open-form .br-r {
+  width: 10px;
+  bottom: -15px;
+  right: -15px;
+  top: -15px;
+}
+
+@media only screen and (min-width: 992px) {
+  .open-form .check-list .check-item img {
+    max-width: 100px;
+  }
+  .open-form .check-list .check-item p {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .open-form .t {
+    padding-bottom: 60px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .open-form form input, .open-form form button {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .open-form .check-list .check-item img {
+    max-width: 40px;
+  }
+  .open-form .check-list .check-item p {
+    font-size: 20px;
+  }
+  .open-form form input, .open-form form button {
+    font-size: 16px;
+  }
+  .open-form form .t h5 {
+    max-width: 500px;
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=open-form.css.map */

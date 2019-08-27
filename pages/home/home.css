@@ -1,0 +1,61 @@
+.home {
+  position: relative;
+  overflow: hidden;
+  font-family: "Roboto", sans-serif !important;
+}
+.home form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.home form .t h5 {
+  color: black;
+  line-height: 30px;
+}
+.home form input {
+  text-align: center;
+  display: block;
+  width: 100%;
+  max-width: 350px;
+  padding: 15px 10px;
+  font-size: 16px;
+  font-weight: 400;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.03);
+  margin-bottom: 0;
+  border-radius: 0;
+  background-color: transparent;
+  color: white;
+  transition: 0.2s;
+  border: 2px solid #F8EB92;
+}
+.home form input::placeholder {
+  color: white;
+}
+.home form input:hover {
+  transition: 0.2s;
+  border-color: white;
+}
+.home form input:focus {
+  transition: 0.2s;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+.home form button {
+  max-width: 200px;
+  border-radius: 0;
+  padding: 16px 30px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  font-weight: 500;
+  width: 100%;
+  transition: 0.2s;
+  color: black;
+  background-color: #F8EB92;
+}
+.home form button:hover {
+  transition: 0.2s;
+  color: white;
+  background-color: #cdc06b;
+}
+
+/*# sourceMappingURL=home.css.map */

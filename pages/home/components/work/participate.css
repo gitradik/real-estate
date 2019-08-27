@@ -1,0 +1,137 @@
+.work {
+  overflow: hidden;
+  padding: 60px 0;
+  background-color: #f7f7f7;
+  display: flex;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.work .part-card {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  flex: 1;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+  max-width: 360px;
+  padding: 0;
+  padding-top: 76px;
+  border-radius: 3px;
+  margin: 10px 0;
+  border: 1px solid #ebebeb;
+}
+.work .part-card .gradient-box {
+  border-radius: 0;
+}
+.work .part-card .gradient-box:before {
+  border-radius: 0;
+  margin: -3px;
+}
+.work .part-card .part-img {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 150px;
+  width: 150px;
+}
+.work .part-card .part-img img {
+  height: auto;
+  max-width: 100%;
+}
+.work .part-card img {
+  height: auto;
+  max-width: 100%;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.work .part-card h4 {
+  padding-top: 15px;
+  border-top: 1px solid #ebebeb;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 20px;
+  color: #252525;
+}
+.work .part-card h5 {
+  color: rgba(0, 0, 0, 0.8);
+  padding-bottom: 0;
+  margin: 25px auto;
+  font-weight: 900;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.work .part-card p {
+  border-bottom: 1px solid #f2f2f2;
+  padding: 8px 0;
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 300;
+  display: flex;
+  align-items: flex-start;
+}
+.work .part-card p i {
+  color: #232a72;
+  margin-right: 8px;
+}
+.work .t {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.work .t h2 {
+  text-align: center;
+  color: black;
+  margin-bottom: 0;
+}
+.work .t h4 {
+  font-size: 24px;
+}
+.work .t h4 span {
+  font-size: 22px;
+}
+
+@media only screen and (min-width: 576px) {
+  .work .part-card img {
+    display: none;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .part-offer-3 {
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .part-offer-3 {
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .work .part-card h4 {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .part-offer .t {
+    padding: 25px;
+  }
+  .part-offer .t h3 {
+    font-size: 28px;
+  }
+  .part-offer .t h3 span {
+    font-size: 24px;
+    font-weight: 900;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .work .part-card h4 {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=participate.css.map */

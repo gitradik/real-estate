@@ -1,0 +1,85 @@
+@import "../../style/data"
+
+.done
+  min-height: 100vh
+  padding-top: 130px
+  display: flex
+  align-items: center
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+  font-family: 'Roboto', sans-serif!important
+
+  .time-back
+    display: flex
+    align-items: center
+
+    p
+      color: white
+      font-weight: 500
+      font-size: 20px
+
+
+  .done-text
+    text-align: center
+
+    h3
+      font-size: 28px
+      font-weight: 600
+      color: white
+      letter-spacing: 1px
+      margin-bottom: 15px
+
+    p
+      margin-top: 30px
+      font-size: 22px
+      color: $color2
+      font-weight: 300
+      letter-spacing: 1px
+      margin-bottom: 15px
+      font-style: italic
+
+  .order
+
+    a
+      outline: none
+      text-transform: uppercase
+      padding: 20px 50px
+      border-radius: 30px
+      font-size: 18px
+      font-weight: 700
+      transition: .3s
+      border: 2px solid transparent
+      color: black
+      background: #fbb36c
+      background: -moz-linear-gradient(45deg,  #fbb36c 0%, #fbf6b8 50%, #fbf6b8 51%, #fbb36c 100%)
+      background: -webkit-linear-gradient(45deg,  #fbb36c 0%,#fbf6b8 50%,#fbf6b8 51%,#fbb36c 100%)
+      background: linear-gradient(45deg,  #fbb36c 0%,#fbf6b8 50%,#fbf6b8 51%,#fbb36c 100%)
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fbb36c', endColorstr='#fbb36c',GradientType=1 )
+
+      &:hover
+        transition: .3s
+        background: transparent
+        color: #fbb36c
+        border-color: #fbb36c
+
+  .socials
+    display: flex
+    align-items: center
+    justify-content: center
+    padding: 30px
+
+    a
+      font-size: 28px
+      color: $color2
+      margin-right: 15px
+
+      &:last-child
+        margin-right: 0
+
+
+
+  img
+    height: auto
+    max-width: 200px
+    margin: 30px auto

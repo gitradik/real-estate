@@ -1,0 +1,99 @@
+@import "../../../../style/data"
+
+.open-form
+  padding: 60px 0
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
+  position: relative
+
+  .bg
+    background-color: rgba(0, 0, 0, 0.52)
+
+  .check-list
+    padding: 15px
+    display: flex
+    flex: 1
+    height: 100%
+    border-radius: 0
+    flex-direction: column
+    justify-content: space-around
+    position: relative
+
+    .check-item
+      color: white
+      font-weight: 500
+      text-shadow: 1px 1px 1px rgba(0,0,0,.7)
+
+    //&:before
+      content: ""
+      position: absolute
+      top: -10px
+      right: -10px
+      bottom: -10px
+      left: -10px
+      z-index: -1
+      margin: -5px
+      border-radius: inherit
+      background: #fbb36c
+      background: -moz-linear-gradient(45deg, #fbb36c 0%, #fbf6b8 50%, #fbf6b8 51%, #fbb36c 100%)
+      background: -webkit-linear-gradient(45deg, #fbb36c 0%, #fbf6b8 50%, #fbf6b8 51%, #fbb36c 100%)
+      background: linear-gradient(45deg, #fbb36c 0%, #fbf6b8 50%, #fbf6b8 51%, #fbb36c 100%)
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#fbb36c", endColorstr="#fbb36c",GradientType=1 )
+
+  .ct
+    position: relative
+    z-index: 2
+
+  .t
+    padding-bottom: 30px
+
+    h2
+      color: white
+
+  form
+    position: relative
+
+    .t
+
+      h5
+        color: $color2
+        line-height: 30px
+        text-shadow: 1px 1px 1px rgba(0,0,0,.7)
+
+
+
+  .br-t, .br-b, .br-l, .br-r
+    position: absolute
+    background: #fbb36c
+    background: -moz-linear-gradient(45deg, #fbb36c 0%, #fbf6b8 50%, #fbf6b8 51%, #fbb36c 100%)
+    background: -webkit-linear-gradient(45deg, #fbb36c 0%, #fbf6b8 50%, #fbf6b8 51%, #fbb36c 100%)
+    background: linear-gradient(45deg, #fbb36c 0%, #fbf6b8 50%, #fbf6b8 51%, #fbb36c 100%)
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#fbb36c", endColorstr="#fbb36c",GradientType=1 )
+
+  .br-t
+    height: 10px
+    top: -15px
+    left: -15px
+    right: -15px
+
+  .br-b
+    height: 10px
+    bottom: -15px
+    left: -15px
+    right: -15px
+
+  .br-l
+    width: 10px
+    bottom: -15px
+    left: -15px
+    top: -15px
+
+  .br-r
+    width: 10px
+    bottom: -15px
+    right: -15px
+    top: -15px
+
+
+@import "open-form-media"

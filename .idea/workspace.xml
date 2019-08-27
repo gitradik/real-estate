@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc40cbf9-9162-4175-9fb4-4f0320cf1a63" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/fash_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/fash_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/fash_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/kitila_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/kitila_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/kitila_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/klassicheskaya_gostinaya_s_televizorom.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/klassicheskaya_gostinaya_s_televizorom_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/klassicheskaya_gostinaya_s_televizorom_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/mellia_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/mellia_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/mellia_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/mellia_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/nautilus_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/nautilus_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/nautilus_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/nautilus_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/pacific_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/pacific_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/pacific_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/pacific_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/sun&amp;sea_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/sun&amp;sea_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/sun&amp;sea_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/sun&amp;sea_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/villa_aria_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/villa_aria_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/villa_aria_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/footer/footer.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/footer/footer.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/info/youwillget.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/info/youwillget.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/list/data.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/data.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/list/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/list/list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/list/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/list/list.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/navbar/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/navbar/navbar.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/navbar.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/navbar/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/navbar/navbar.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/navbar.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/participate/participate.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/participate/participate.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/portfolio/portfolio.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/portfolio/portfolio.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/sentence/sentence.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/sentence/sentence.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/team/participate.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/team/participate.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/video-blog/video-blog.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/video-blog/video-blog.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/work/participate.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/work/participate.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/youcan/youcan.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/youcan/youcan.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/youwillget/youwillget.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/youwillget/youwillget.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/data.sass" beforeDir="false" afterPath="$PROJECT_DIR$/style/data.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/sub-style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/sub-style.css" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Sass File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1PY4bn1TvriYnp4uQ60Nh0zSZ85" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages/home/components" />
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc40cbf9-9162-4175-9fb4-4f0320cf1a63" name="Default Changelist" comment="" />
+      <created>1565253524614</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565253524614</updated>
+      <workItem from="1565253525806" duration="3321000" />
+      <workItem from="1565261697607" duration="4084000" />
+      <workItem from="1565274149211" duration="25983000" />
+      <workItem from="1565311692669" duration="1075000" />
+      <workItem from="1565334381227" duration="360000" />
+      <workItem from="1565335293496" duration="66000" />
+      <workItem from="1565336120138" duration="2212000" />
+      <workItem from="1565341659640" duration="17000" />
+      <workItem from="1565343543087" duration="3488000" />
+      <workItem from="1565558992927" duration="15982000" />
+      <workItem from="1565625083337" duration="605000" />
+      <workItem from="1565627266250" duration="14000" />
+      <workItem from="1565690136869" duration="1686000" />
+      <workItem from="1565691848635" duration="1787000" />
+      <workItem from="1565693675707" duration="1787000" />
+      <workItem from="1565695487291" duration="1790000" />
+      <workItem from="1565697303289" duration="1786000" />
+      <workItem from="1565699114528" duration="1786000" />
+      <workItem from="1565700923895" duration="1925000" />
+      <workItem from="1565702878130" duration="1954000" />
+      <workItem from="1565720348550" duration="1615000" />
+      <workItem from="1565771873152" duration="1311000" />
+      <workItem from="1565777736853" duration="1506000" />
+      <workItem from="1565780583842" duration="1817000" />
+      <workItem from="1565782423040" duration="1789000" />
+      <workItem from="1565784240271" duration="1619000" />
+      <workItem from="1565786049709" duration="2108000" />
+      <workItem from="1565788211801" duration="1803000" />
+      <workItem from="1565790048900" duration="122000" />
+      <workItem from="1565797402488" duration="1725000" />
+      <workItem from="1565799154211" duration="1789000" />
+      <workItem from="1565800970287" duration="1828000" />
+      <workItem from="1565806852548" duration="34000" />
+      <workItem from="1565854623958" duration="735000" />
+      <workItem from="1565859009763" duration="730000" />
+      <workItem from="1565862208451" duration="45000" />
+      <workItem from="1566037771428" duration="7734000" />
+      <workItem from="1566047162806" duration="4812000" />
+      <workItem from="1566113249439" duration="418000" />
+      <workItem from="1566193624942" duration="3474000" />
+      <workItem from="1566199829234" duration="1139000" />
+      <workItem from="1566223245727" duration="596000" />
+      <workItem from="1566809499481" duration="5261000" />
+      <workItem from="1566817421160" duration="3590000" />
+      <workItem from="1566918525496" duration="2238000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

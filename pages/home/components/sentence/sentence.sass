@@ -1,0 +1,134 @@
+@import "../../../../style/data"
+
+.sentence
+  overflow: hidden
+  position: relative
+  padding: 60px 0
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: top center
+  background-color: white
+
+  img
+    height: auto
+    max-width: 100%
+
+  .t
+    margin-bottom: 50px
+    border-radius: 2px
+
+    h3
+      color: black
+
+    p
+      text-align: center
+      line-height: 28px
+      font-size: 24px
+      font-weight: 300
+      color: black
+
+      span
+        font-size: 28px
+        font-weight: 500
+        text-decoration: underline
+
+  .t-desc
+    margin-bottom: 0
+    max-width: 800px
+    padding: 10px
+    border-radius: 3px
+    text-align: left
+    position: relative
+
+    .t-white
+      background-color: white
+      padding: 15px
+
+    p
+      position: relative
+      z-index: 2
+      padding: 0
+      font-weight: 500
+      color: rgba(0, 0, 0, 0.85)
+      font-size: 24px
+      margin-bottom: 10px
+      text-align: center
+
+      span
+        font-weight: 900
+        text-decoration: none
+
+      &:last-child
+        margin-bottom: 0
+
+      &:first-child
+        font-weight: 600
+        color: $yellow_light
+
+.video-slider
+  margin: 0
+
+  .slick-dots
+
+    li
+
+      button
+
+        &:before
+          background-color: $yellow_light!important
+
+  .slick-slide
+    padding: 12px
+    position: relative
+    border: none
+
+    &:hover
+
+      img
+        transition: .2s
+        border: 2px solid rgba(255,255,255,1)
+        box-shadow: 0 0 9px 0 rgba(0,0,0,.4)
+
+      .v-link
+
+        .v-play
+          transition: 2s
+          background-color: white
+
+    .v-link
+
+      .v-play
+        position: absolute
+        top: 50%
+        left: 50%
+        transform: translate(-50%, -50%)
+        height: 80px
+        width: 80px
+        display: flex
+        align-items: center
+        justify-content: center
+        transition: .2s
+
+        i
+          font-size: 66px
+          margin-right: -4px
+          margin-bottom: -4px
+          transition: .2s
+          color: $yellow_light
+
+      &:hover
+
+        .v-play
+          background: none
+
+          i
+            transition: .2s
+            color: white
+
+  img
+    border-radius: 4px
+    transition: .2s
+    border: 2px solid rgba(255,255,255,.7)
+    box-shadow: 0 0 15px 0 rgba(0,0,0,.2)
+
+@import "sentence-media"

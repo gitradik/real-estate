@@ -1,0 +1,70 @@
+.form-modal .modal-body {
+  padding-top: 0;
+}
+.form-modal .modal-dialog-centered {
+  justify-content: center;
+}
+.form-modal .modal-content {
+  border-radius: 4px;
+  max-width: 370px;
+}
+.form-modal .modal-header {
+  border-bottom: 0;
+  border-radius: 0;
+}
+.form-modal .modal-header .modal-title {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  width: 100%;
+}
+.form-modal form input {
+  text-align: center;
+  display: block;
+  width: 100%;
+  border-radius: 3px;
+  max-width: 350px;
+  padding: 20px 10px;
+  font-size: 20px;
+  font-weight: 300;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  color: black;
+  margin-bottom: 15px;
+}
+.form-modal form input::placeholder {
+  color: rgba(0, 0, 0, 0.7);
+}
+.form-modal form button {
+  outline: none;
+  text-transform: uppercase;
+  padding: 20px 50px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  transition: 0.3s;
+  border: 2px solid transparent;
+  color: black;
+  background: #fbb36c;
+  background: -moz-linear-gradient(45deg, #fbb36c 0%, #fbf6b8 50%, #fbf6b8 51%, #fbb36c 100%);
+  background: -webkit-linear-gradient(45deg, #fbb36c 0%, #fbf6b8 50%, #fbf6b8 51%, #fbb36c 100%);
+  background: linear-gradient(45deg, #fbb36c 0%, #fbf6b8 50%, #fbf6b8 51%, #fbb36c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#fbb36c", endColorstr="#fbb36c",GradientType=1 );
+}
+.form-modal form button:hover {
+  transition: 0.3s;
+  background: transparent;
+  color: #fbb36c;
+  border-color: #fbb36c;
+}
+.form-modal form .t {
+  padding: 30px 0;
+}
+.form-modal form .t p {
+  color: black;
+  font-weight: 700;
+}
+.form-modal form .order {
+  padding-top: 20px;
+}
+
+/*# sourceMappingURL=form-modal.css.map */
