@@ -25,7 +25,7 @@
                 </div>
             </div>
 
-            <div class="col-md-12 mb-5">
+            <div class="col-md-12 mb-5" data-aos="zoom-in-down" data-aos-offset="30" data-aos-duration="1200">
 
                 <div class="slider-for">
                     <?php
