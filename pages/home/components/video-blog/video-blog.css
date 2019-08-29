@@ -15,6 +15,7 @@
 }
 .video-blog .t {
   margin-bottom: 60px;
+  display: block;
 }
 .video-blog .vid {
   border-radius: 4px;

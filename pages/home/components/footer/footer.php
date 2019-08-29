@@ -4,8 +4,14 @@
 
 <footer id="footerId">
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-md-5 d-flex align-items-center">
+        <div class="row justify-content-center position-relative">
+            <div class="ram">
+                <div class="ram-container">
+                      <div class="ram-br ram-right-bottom"></div>
+                       <div class="ram-br ram-left-bottom"></div>
+                </div>
+            </div>
+            <div style="position: relative; z-index: 4;" class="col-md-5 pb-3 d-flex align-items-center">
                 <div class="foot-item w-100" data-aos="fade-right" data-aos-duration="800">
                     <div class="t">
                         <h5>Телефоны: </h5>
@@ -20,7 +26,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-5 d-flex align-items-center">
+            <div style="position: relative; z-index: 4;" class="col-md-5 pb-3 d-flex align-items-center">
                 <form class="telegram w-100" data-aos="fade-left" data-aos-duration="800">
                     <input type="hidden" name="location" value="Футер">
                     <div class="t pb-3">

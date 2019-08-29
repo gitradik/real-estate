@@ -34,9 +34,13 @@ body {
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
 .t h2 {
+  display: inline-block;
+  padding: 5px 0;
   color: #E9C669;
   font-size: 38px;
   font-weight: 500;
+  border-bottom: 2px solid #E9C669;
+  border-top: 2px solid #E9C669;
 }
 .t h3 {
   font-size: 28px;
@@ -165,6 +169,59 @@ body {
 
 .zoom-min-gallery a, .zoom-gallery a {
   cursor: pointer !important;
+}
+
+.ram {
+  position: absolute;
+  z-index: 3;
+  left: -5px;
+  right: -5px;
+  top: -5px;
+  bottom: -5px;
+  border: 2px solid #E9C669;
+}
+.ram .ram-container {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.ram .ram-container:before {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  top: 47px;
+  left: -17px;
+  right: -17px;
+  bottom: 20px;
+  border: 2px solid #E9C669;
+  border-top: 0;
+}
+.ram .ram-container .ram-br {
+  position: absolute;
+  height: 70px;
+  width: 70px;
+}
+.ram .ram-container .ram-left-top {
+  border: 2px solid #E9C669;
+  top: -25px;
+  left: -33px;
+}
+.ram .ram-container .ram-right-top {
+  border: 2px solid #E9C669;
+  right: -33px;
+  top: -25px;
+}
+.ram .ram-container .ram-right-bottom {
+  border: 2px solid #E9C669;
+  right: -33px;
+  bottom: -33px;
+}
+.ram .ram-container .ram-left-bottom {
+  border: 2px solid #E9C669;
+  left: -33px;
+  bottom: -33px;
 }
 
 @media only screen and (max-width: 1199px) {

@@ -3,16 +3,19 @@
 </style>
 
 <div class="open-form" style="background-image: url('<?= get_template_directory_uri(); ?>/images/albena-beach-bulgaria.jpg')">
-    <div class="bg"></div>
     <div class="container ct">
         <div class="row">
-            <div class="col-md-12">
+            <div style="position: relative; z-index: 4" class="col-md-12">
                 <div class="t" data-aos="fade-right" data-aos-duration="800">
                     <h2>Компания Golden Elephant приглашает Вас на смотровой тур в Болгарию </h2>
 
                 </div>
             </div>
-            <div class="col-lg-6 pr-lg-4 d-flex align-items-center justify-content-center">
+        </div>
+        <div class="row position-relative">
+            <div class="bg" data-aos="zoom-in-up" data-aos-offset="20" data-aos-duration="1000"></div>
+
+            <div style="position: relative; z-index: 4" class="col-lg-6 pr-lg-4 d-flex align-items-center justify-content-center">
                 <div class="check-list" data-aos="fade-right" data-aos-duration="1000">
                     <div class="br-t"></div>
                     <div class="br-b"></div>
@@ -33,7 +36,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 pl-lg-4 mt-5 mt-lg-0  d-flex align-items-center justify-content-center">
+            <div style="position: relative; z-index: 4" class="col-lg-6 pl-lg-4 mt-5 mt-lg-0  d-flex align-items-center justify-content-center">
                 <form class="telegram" data-aos="fade-left" data-aos-duration="1000">
                     <div class="br-t"></div>
                     <div class="br-b"></div>

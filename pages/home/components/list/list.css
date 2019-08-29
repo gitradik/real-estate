@@ -1,6 +1,7 @@
 .list {
   overflow: hidden;
   padding: 60px 0;
+  padding-bottom: 0;
   background-color: transparent;
 }
 .list .slider-for, .list .slider-nav {
@@ -18,6 +19,9 @@
 .list .order button {
   padding: 15px 25px;
   font-size: 15px;
+}
+.list .t {
+  display: block;
 }
 .list .t h2 {
   text-align: center;

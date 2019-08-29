@@ -78,6 +78,7 @@
 .participate .t {
   text-align: center;
   margin-bottom: 60px;
+  display: block;
 }
 .participate .t h2 {
   text-align: center;

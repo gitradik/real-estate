@@ -1,4 +1,4 @@
-<div class="home" style="background-image: url('<?= get_template_directory_uri();?>/images/first-scroll-back.png')">
+<div class="home" style="background-image: url('<?= get_template_directory_uri();?>/images/main_BG.jpg')">
 
     <div id="pageLoaderId" class="page-loader d-none">
         <div class="sk-cube-grid">

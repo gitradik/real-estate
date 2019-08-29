@@ -10,6 +10,7 @@
 }
 .team .t {
   margin-bottom: 60px;
+  display: block;
 }
 .team .t h2 {
   text-align: center;

@@ -14,6 +14,7 @@
 .sentence .t {
   margin-bottom: 50px;
   border-radius: 2px;
+  display: block;
 }
 .sentence .t h2 {
   color: #E9C669;

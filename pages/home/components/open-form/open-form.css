@@ -7,6 +7,8 @@
 }
 .open-form .bg {
   background-color: rgba(0, 0, 0, 0.52);
+  top: -16px;
+  bottom: -16px;
 }
 .open-form .check-list {
   padding: 30px 20px;
@@ -29,9 +31,11 @@
 }
 .open-form .t {
   padding-bottom: 30px;
+  display: block;
 }
 .open-form .t h2 {
   color: white;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 }
 .open-form form {
   width: 100%;

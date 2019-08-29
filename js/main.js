@@ -5,14 +5,10 @@ var rotateForce = 20; // max popup rotation in deg
 
 $(function () {
     $(document).on('mousemove', function (e) {
-        $('.bgshan').css({
+        $('.rarara').css({
             transaction: '.9s',
             left: -e.pageX / 10,
             top: -e.pageY / 10
-        });
-        $('.second').css({
-            left: e.pageX / 50 + 200,
-            top: e.pageY / 50 + 200
         });
     });
 });
