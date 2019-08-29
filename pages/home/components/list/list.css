@@ -1,7 +1,16 @@
 .list {
   overflow: hidden;
   padding: 60px 0;
-  background-color: #f7f7f7;
+  background-color: transparent;
+}
+.list .slider-for, .list .slider-nav {
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+}
+.list .slider-nav {
+  margin-top: 10px;
 }
 .list .order {
   margin-bottom: 10px;
@@ -12,7 +21,6 @@
 }
 .list .t h2 {
   text-align: center;
-  color: black;
 }
 .list .t p {
   text-align: center;
@@ -250,6 +258,11 @@
   .list .slider-nav .nav-item img {
     height: 80px;
     max-width: 120px;
+  }
+}
+@media only screen and (max-width: 399px) {
+  .list .slider-for, .list .slider-nav {
+    padding: 5px;
   }
 }
 

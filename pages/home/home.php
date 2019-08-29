@@ -1,4 +1,4 @@
-<div class="home">
+<div class="home" style="background-image: url('<?= get_template_directory_uri();?>/images/first-scroll-back.png')">
 
     <div id="pageLoaderId" class="page-loader d-none">
         <div class="sk-cube-grid">
@@ -26,14 +26,14 @@
         require_once get_template_directory() . '/pages/home/components/sentence/sentence.php';
 
         require_once get_template_directory() . '/pages/home/components/open-form/open-form.php';
-        require_once get_template_directory() . '/pages/home/components/participate/participate.php';
-        require_once get_template_directory() . '/pages/home/components/companies/companies.php';
         require_once get_template_directory() . '/pages/home/components/list/list.php';
-        require_once get_template_directory() . '/pages/home/components/open-form-2/open-form.php';
+        require_once get_template_directory() . '/pages/home/components/participate/participate.php';
         require_once get_template_directory() . '/pages/home/components/team/participate.php';
-        require_once get_template_directory() . '/pages/home/components/work/participate.php';
-        require_once get_template_directory() . '/pages/home/components/youwillget/youcan.php';
-        require_once get_template_directory() . '/pages/home/components/info/youcan.php';
+        /*require_once get_template_directory() . '/pages/home/components/companies/companies.php';*/
+      /*  require_once get_template_directory() . '/pages/home/components/work/participate.php';*/
+       /* require_once get_template_directory() . '/pages/home/components/youwillget/youcan.php';
+        require_once get_template_directory() . '/pages/home/components/info/youcan.php';*/
+        require_once get_template_directory() . '/pages/home/components/open-form-2/open-form.php';
         require_once get_template_directory() . '/pages/home/components/video-blog/video-blog.php';
         require_once get_template_directory() . '/pages/home/components/footer/footer.php';
 

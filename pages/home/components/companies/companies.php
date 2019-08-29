@@ -9,9 +9,6 @@
             <div class="col-md-12">
                 <div class="t">
                     <h2>Наши партнеры - застройщики</h2>
-                    <div class="t-box pt-3">
-                        <img class="img-fluid" src="<?= get_template_directory_uri();?>/images/title-bottom.png" alt="title-bottom">
-                    </div>
                 </div>
             </div>
             <div class="col-md-12">

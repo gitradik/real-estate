@@ -1,7 +1,7 @@
 <style>
     <?= include 'list.css'; ?>
 </style>
-<div style="color: white">
+<div style="color: transparent">
 <?= require_once 'data.php'; ?>
 </div>
 
@@ -11,9 +11,6 @@
             <div class="col-md-12">
                 <div class="t" data-aos="fade-right" data-aos-duration="800">
                     <h2>Наши Предложения</h2>
-                    <div class="t-box pt-3">
-                        <img class="img-fluid" src="<?= get_template_directory_uri();?>/images/title-bottom.png" alt="title-bottom">
-                    </div>
                 </div>
             </div>
 

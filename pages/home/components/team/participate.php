@@ -8,10 +8,6 @@
             <div class="col-md-12">
                 <div class="t" data-aos="fade-right" data-aos-duration="800">
                     <h2>Наша команда</h2>
-
-                    <div class="t-box pt-3">
-                        <img class="img-fluid" src="<?= get_template_directory_uri();?>/images/title-bottom.png" alt="title-bottom">
-                    </div>
                     <h3>Вы хотите приобрести апартаменты в Болгарии?<br>
 
                         Не можете определится с выбором?</h3>

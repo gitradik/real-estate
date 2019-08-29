@@ -2,6 +2,10 @@
   position: relative;
   overflow: hidden;
   font-family: "Roboto", sans-serif !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
 }
 .home form {
   display: flex;
@@ -34,7 +38,7 @@
 }
 .home form input:hover {
   transition: 0.2s;
-  border-color: black;
+  border-color: white;
 }
 .home form input:focus {
   transition: 0.2s;

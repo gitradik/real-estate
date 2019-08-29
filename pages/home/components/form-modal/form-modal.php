@@ -16,10 +16,7 @@
                 <form class="telegram">
                     <input type="hidden" name="location" id="formInputHiddenId">
                     <div class="t">
-                        <p>Заполните форму ниже и получите БЕСПЛАТНУЮ консультация прямо СЕЙЧАС</p>
-                        <div class="t-box pt-3">
-                            <img class="img-fluid" src="<?= get_template_directory_uri();?>/images/title-bottom.png" alt="title-bottom">
-                        </div>
+                        <p>Заполните форму ниже<br> и получите БЕСПЛАТНУЮ<br> консультация прямо СЕЙЧАС</p>
                     </div>
                     <input placeholder="Ваше Имя" name="name" type="text">
                     <input class="input-mask-s" placeholder="Ваш Телефон*" name="phone" type="tel" required>

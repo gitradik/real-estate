@@ -1,6 +1,12 @@
 .video-blog {
   padding: 60px 0;
 }
+.video-blog .slider {
+  background-color: white;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 0 0 15px 0 rgba(255, 255, 255, 0.4);
+}
 .video-blog img {
   height: auto;
   max-width: 100%;
@@ -9,9 +15,6 @@
 }
 .video-blog .t {
   margin-bottom: 60px;
-}
-.video-blog .t h2 {
-  color: black;
 }
 .video-blog .vid {
   border-radius: 4px;
@@ -88,6 +91,11 @@
   }
   .video-blog .review-item .review-name img {
     max-width: 50px;
+  }
+}
+@media only screen and (max-width: 399px) {
+  .video-blog .slider {
+    padding: 5px;
   }
 }
 

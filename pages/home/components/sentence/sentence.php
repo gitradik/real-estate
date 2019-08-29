@@ -9,11 +9,7 @@
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="t" data-aos="fade-right" data-aos-duration="800">
-                    <h2 style="color: black">О нас</h2>
-
-                    <div class="t-box pt-3">
-                        <img style="box-shadow: none" class="img-fluid" src="<?= get_template_directory_uri();?>/images/title-bottom.png" alt="title-bottom">
-                    </div>
+                    <h2 >О нас</h2>
                 </div>
             </div>
         </div>
