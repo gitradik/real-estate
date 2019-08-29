@@ -3,7 +3,7 @@
 </style>
 
 <div class="team" >
-    <div class="container">
+    <div class="container-fluid">
         <div class="row justify-content-center">
             <div class="col-md-12">
                 <div class="t" data-aos="fade-right" data-aos-duration="800">

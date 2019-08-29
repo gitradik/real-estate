@@ -30,6 +30,7 @@
             </div>
         </div>
     </div>
+    <div class="bg bgtop"></div>
     <div class="bg bgshan"  style="background-image: url('<?= get_template_directory_uri(); ?>/images/photo_2018-07-18_16-45-33.jpg')"></div>
     <div class="container-fluid ct mb-auto">
         <div class="row justify-content-center">
@@ -59,8 +60,8 @@
                         <h4>ОСТАВЬТЕ ЗАЯВКУ И ПОЛУЧИТЕ ПОДБОР НЕДВИЖИМОСТИ С ГАРАНТИРОВАННЫМ ДОХОДОМ</h4>
                     </div>
                     <div class="d-flex align-items-center form-media">
-                        <input class="mr-lg-2" name="name" placeholder="Имя" type="text">
-                        <input class="mr-lg-2 input-mask-s" name="phone" placeholder="Телефон" type="text">
+                        <input class="mr-lg-2 mb-0" name="name" placeholder="Имя" type="text">
+                        <input class="mr-lg-2 mb-0 input-mask-s" name="phone" placeholder="Телефон" type="text">
                         <button data-toggle="modal" data-target="#formModal"
                                 onclick="onClickFormModal('Получить подбор недвижемости', 'formModalLongTitle', 'Первый скролл => Получить', 'formInputHiddenId')">Получить</button>
                     </div>

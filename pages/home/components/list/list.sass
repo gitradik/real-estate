@@ -64,9 +64,26 @@
       align-items: flex-start
       margin: 20px 0
 
+      .zoom-gallery
+        display: flex
+        height: 100%
+        min-height: 450px
+        flex: 1
+        background-position: center
+        background-size: cover
+        background-repeat: no-repeat
+
       .list-item-desc
         border-radius: 3px
         margin-left: 10px
+        display: flex
+        height: 100%
+        flex-direction: column
+        flex: 1
+        background-color: white
+
+        .list-item-desc-text
+          padding-top: 20px
 
       .list-slider
         max-width: 550px
@@ -75,14 +92,14 @@
         .slick-slide
 
       img
-        max-height: 366px
         height: auto
-        min-width: 550px
-        max-width: 550px
         box-shadow: $box_shadow_hard
         border-radius: 4px
+        width: 700px
+        max-width: 100%
 
       h5
+        text-align: center
         font-size: 23px
         color: rgba(0,0,0,.8)
         padding: 20px
@@ -90,12 +107,13 @@
         background-color: $color2
 
       p
+        text-align: center
+        margin-top: auto
         font-size: 16px
         height: 303px
         max-height: 280px
         overflow-y: scroll
         line-height: 25px
-        background-color: white
         display: flex
         flex: 1
 

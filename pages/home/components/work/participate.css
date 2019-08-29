@@ -1,12 +1,41 @@
 .work {
   overflow: hidden;
   padding: 60px 0;
+  padding-bottom: 0;
   background-color: #f7f7f7;
   display: flex;
   align-items: center;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.work .work-col {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  position: relative;
+  border: 1px solid #E9C669;
+}
+.work .work-col .work-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.work .work-col .work-bg .t {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.work .work-col .work-bg .t h5 {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 15px;
 }
 .work .part-card {
   align-items: center;
@@ -109,6 +138,14 @@
 @media only screen and (min-width: 1200px) {
   .part-offer-3 {
     padding-bottom: 100px;
+  }
+}
+@media only screen and (max-width: 1399px) {
+  .work .work-col {
+    min-height: 300px;
+  }
+  .work .work-col .work-bg .t h5 {
+    font-size: 20px;
   }
 }
 @media only screen and (max-width: 1199px) {

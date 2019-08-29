@@ -20,14 +20,14 @@
   max-width: 350px;
   padding: 15px 10px;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.03);
-  margin-bottom: 0;
+  margin-bottom: 10px;
   border-radius: 0;
   background-color: transparent;
   color: white;
   transition: 0.2s;
-  border: 2px solid #F8EB92;
+  border: 2px solid #E9C669;
 }
 .home form input::placeholder {
   color: white;
@@ -50,7 +50,7 @@
   width: 100%;
   transition: 0.2s;
   color: black;
-  background-color: #F8EB92;
+  background-color: #E9C669;
 }
 .home form button:hover {
   transition: 0.2s;

@@ -2,17 +2,17 @@
     <?= include 'open-form.css'?>
 </style>
 
-<div class="open-form" style="background-image: url('<?= get_template_directory_uri(); ?>/images/1232.jpg')">
+<div class="open-form" style="background-image: url('<?= get_template_directory_uri(); ?>/images/albena-beach-bulgaria.jpg')">
     <div class="bg"></div>
     <div class="container ct">
         <div class="row">
             <div class="col-md-12">
                 <div class="t" data-aos="fade-right" data-aos-duration="800">
-                    <h2>Компания Golden Elephant приглашает Вас посетить солнечную Болгарию , увидеть своими глазами чудесную страну , выбрать и приобрести недвижимость.</h2>
+                    <h2>Компания Golden Elephant приглашает Вас на смотровой тур в Болгарию </h2>
 
                 </div>
             </div>
-            <div class="col-lg-6 d-flex p-lg-4  align-items-center justify-content-center">
+            <div class="col-lg-6 pr-lg-4 d-flex align-items-center justify-content-center">
                 <div class="check-list" data-aos="fade-right" data-aos-duration="1000">
                     <div class="br-t"></div>
                     <div class="br-b"></div>
@@ -33,7 +33,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 pt-5 pt-lg-0 p-lg-4 d-flex align-items-center justify-content-center">
+            <div class="col-lg-6 pl-lg-4 mt-5 mt-lg-0  d-flex align-items-center justify-content-center">
                 <form class="telegram" data-aos="fade-left" data-aos-duration="1000">
                     <div class="br-t"></div>
                     <div class="br-b"></div>
@@ -43,7 +43,7 @@
                     <div class="t pb-3">
                         <h5>Заполните форму ниже и получите
 
-                            БЕСПЛАТНУЮ консультацию и ПОЛНОЕ сопровождение на территории Болгарии</h5>
+                            каталог горячих предложений и консультацию менеджера БЕСПЛАТНО</h5>
                     </div>
                     <input type="text" name="name" placeholder="Ваше Имя">
                     <input class="input-mask-s" type="tel" name="phone" placeholder="Ваш Телефон*" required>

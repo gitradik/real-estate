@@ -7,7 +7,7 @@
         <img src="<?= get_template_directory_uri(); ?>/images/logo.png" alt="logo">
     </a>
     <button id="mainNavBarToggleId" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#hamListId" aria-controls="hamListId" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon" ></span>
+        <span class="navbar-toggler-icon" style="background-image: url('<?= get_template_directory_uri();?>/images/icons8-menu-100.png')"></span>
 
     </button>
 

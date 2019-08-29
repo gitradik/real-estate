@@ -9,7 +9,7 @@
   background-color: rgba(0, 0, 0, 0.52);
 }
 .open-form .check-list {
-  padding: 15px;
+  padding: 30px 20px;
   display: flex;
   flex: 1;
   height: 100%;
@@ -34,7 +34,14 @@
   color: white;
 }
 .open-form form {
+  width: 100%;
   position: relative;
+  padding: 30px 20px;
+}
+.open-form form .t {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .open-form form .t h5 {
   color: #e7d885;
@@ -78,15 +85,18 @@
   .open-form .check-list .check-item img {
     max-width: 100px;
   }
-  .open-form .check-list .check-item p {
-    font-size: 20px;
-    font-weight: 400;
-  }
   .open-form .t {
     padding-bottom: 60px;
   }
 }
 @media only screen and (max-width: 1199px) {
+  .open-form .check-list .check-item p {
+    font-size: 18px;
+  }
+  .open-form form .t h5 {
+    font-size: 20px;
+    font-weight: 900;
+  }
   .open-form form input, .open-form form button {
     font-size: 18px;
   }

@@ -22,15 +22,16 @@
                 <form class="telegram" data-aos="fade-left" data-aos-duration="1000">
                     <input type="hidden" name="location" value="Не можете подобрать квартиру?">
                     <div class="t pb-3">
-                        <h5>Заполните форму и наш менеджер
+                        <h5>Заполните форму и наш менеджер<br>
 
-                            свяжется с Вами в течении 15 мин
+                            свяжется с Вами в течении 15 мин<br>
 
                             для БЕСПЛАТНОЙ консультации</h5>
                     </div>
-                    <input type="text" name="name" placeholder="Ваше Имя">
+                    <input type="text" name="name" placeholder="Ваше Имя" required>
                     <input class="input-mask-s" type="tel" name="phone" placeholder="Ваш Телефон*" required>
-                    <button>Получить консультацию</button>
+                    <input type="email" name="email" placeholder="Ваша Почта*" required>
+                    <button>Получить каталог</button>
                 </form>
 
             </div>

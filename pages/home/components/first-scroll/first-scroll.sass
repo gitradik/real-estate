@@ -19,11 +19,8 @@
     background-position: center
     z-index: 0
 
-  form
-
-    input
-
-
+  .bgtop
+    z-index: 1
 
   .ct
     position: relative
@@ -78,6 +75,7 @@
     text-align: center
 
     ul
+      background-color: rgba(255,255,255,.8)
       padding: 30px
       max-width: 635px
       margin: 0 auto
@@ -86,7 +84,7 @@
       li
         font-size: 18px
         font-weight: 500
-        color: $gold
+        color: black
         margin-bottom: 10px
 
         &:last-child
@@ -101,8 +99,10 @@
 
     h1
       color: $gold
-      text-shadow: 1px 1px 1px rgba(0,0,0,.4)
-      font-weight: 900
+      background-color: rgba(255,255,255,.4)
+      padding: 40px
+      box-shadow: 0 0 10px 0 rgba(0,0,0,.1)
+      font-weight: 700
 
     h2
       margin: 30px 0
@@ -114,7 +114,11 @@
     h3
       margin: 30px 0
       font-size: 28px
-      color: $gold
+      font-weight: 700
+      background-color: rgba(248, 235, 146, 0.8)
+      padding: 30px
+      box-shadow: 0 0 10px 0 rgba(0,0,0,.1)
+      color: rgba(0, 0, 0, 0.8)
 
     hr
       margin-right: auto
@@ -230,6 +234,12 @@
 
           &:last-child
             margin-right: 0
+
+      .order
+
+        button
+          padding: 10px 20px
+          font-size: 16px
 
 
 

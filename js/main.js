@@ -83,12 +83,26 @@ $(".team-slider").slick({
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 5,
+    slidesToScroll: 5,
     adaptiveHeight: true,
     prevArrow: '<button class="arrow-slider prev-arrow"><i class="fas fa-chevron-left"></i></button>',
     nextArrow: '<button class="arrow-slider next-arrow"><i class="fas fa-chevron-right"></i></button>',
     responsive: [
+        {
+            breakpoint: 1500,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4,
+            }
+        },
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+            }
+        },
         {
             breakpoint: 991,
             settings: {
@@ -114,6 +128,18 @@ $(".video-slider").slick({
     slidesToScroll: 1,
     adaptiveHeight: true,
     arrows: false,
+});
+
+$(".sent-slider-gallery").slick({
+    dots: false,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    adaptiveHeight: false,
+    arrows: false,
+    prevArrow: '<button class="arrow-slider prev-arrow"><i class="fas fa-chevron-left"></i></button>',
+    nextArrow: '<button class="arrow-slider next-arrow"><i class="fas fa-chevron-right"></i></button>',
 });
 
 $(".list-slider").slick({
@@ -144,8 +170,8 @@ $('.slider-for-second').slick({
 });
 
 $('.slider-nav').slick({
-    slidesToShow: 4,
-    slidesToScroll: 4,
+    slidesToShow: 8,
+    slidesToScroll: 8,
     asNavFor: '.slider-for',
     dots: true,
     centerMode: true,
@@ -154,6 +180,20 @@ $('.slider-nav').slick({
     prevArrow: '<button class="arrow-slider prev-arrow"><i class="fas fa-chevron-left"></i></button>',
     nextArrow: '<button class="arrow-slider next-arrow"><i class="fas fa-chevron-right"></i></button>',
     responsive: [
+        {
+            breakpoint: 1500,
+            settings: {
+                slidesToShow: 6,
+                slidesToScroll: 6,
+            }
+        },
+        {
+            breakpoint: 1200,
+            settings: {
+                slidesToShow: 4,
+                slidesToScroll: 4,
+            }
+        },
         {
             breakpoint: 991,
             settings: {

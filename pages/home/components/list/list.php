@@ -6,7 +6,7 @@
 </div>
 
 <div id="listId" class="list" style="background-image: url('<?= get_template_directory_uri(); ?>/images/patt_diagonals.png')">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-12">
                 <div class="t" data-aos="fade-right" data-aos-duration="800">
@@ -34,28 +34,31 @@
                     <div>
                         <div class="list-item">
                             <div class="list-item-body">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="zoom-gallery" style="background-image: url('<?= $market->preview_img; ?>')">
+                                            <div>
+                                                <a href="<?= $market->preview_img; ?>" title="<?= $market->name; ?>">
+                                                </a>
+                                            </div>
 
-                                <div class="list-slider zoom-gallery">
-                                    <div>
-                                        <a href="<?= $market->preview_img; ?>" title="<?= $market->name; ?>">
-                                            <img src="<?= $market->preview_img; ?>" alt="<?= $market->name; ?>">
-                                        </a>
+                                            <?php
+                                            foreach ($market->images as $item):
+                                                ?>      <div>
+                                                <a href="<?= $item; ?>" title="<?= $market->name; ?>">
+                                                    <img src="<?= $item; ?>" alt="<?= $market->name; ?>">
+                                                </a>
+                                            </div>
+                                            <?php endforeach; ?>
+                                        </div>
                                     </div>
-
-                                    <?php
-                                    foreach ($market->images as $item):
-                                        ?>      <div>
-                                        <a href="<?= $item; ?>" title="<?= $market->name; ?>">
-                                            <img src="<?= $item; ?>" alt="<?= $market->name; ?>">
-                                        </a>
-                                    </div>
-                                    <?php endforeach; ?>
-                                </div>
-
-                                <div class="list-item-desc h-100">
-                                    <h5><?php echo $market->name; ?></h5>
-                                    <div class="list-item-desc-text">
-                                        <p><?php echo $market->desc; ?> </p>
+                                    <div class="col-md-6">
+                                        <div class="list-item-desc h-100">
+                                            <h5><?php echo $market->name; ?></h5>
+                                            <div class="list-item-desc-text">
+                                                <p><?php echo $market->desc; ?> </p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

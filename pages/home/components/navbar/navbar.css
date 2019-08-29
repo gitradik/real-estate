@@ -40,19 +40,18 @@
 }
 .navbar .navbar-nav .nav-order .nav-link-ord {
   outline: none;
-  text-transform: uppercase;
-  padding: 10px 20px;
+  padding: 8px 15px;
   border-radius: 0;
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
   transition: 0.3s;
-  border: 2px solid #F8EB92;
-  color: #F8EB92;
+  border: 2px solid #E9C669;
+  color: #E9C669;
   background-color: transparent;
 }
 .navbar .navbar-nav .nav-order .nav-link-ord:hover {
   transition: 0.3s;
-  background: #F8EB92;
+  background: #E9C669;
   color: black;
 }
 .navbar .navbar-nav .nav-order .nav-number {
@@ -64,7 +63,7 @@
 
 .navbar-in {
   transition: 0.2s;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: black;
   box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
   transform: translateY(0);
 }

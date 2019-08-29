@@ -63,6 +63,77 @@
   font-weight: 600;
   color: #232a72;
 }
+.sentence .slick-slide {
+  padding: 12px;
+  position: relative;
+  border: none;
+}
+.sentence .video-about {
+  position: relative;
+}
+.sentence .video-about .v-link {
+  display: block;
+}
+.sentence .video-about .v-link .v-play {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 70px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.2s;
+}
+.sentence .video-about .v-link .v-play i {
+  font-size: 66px;
+  margin-right: -4px;
+  margin-bottom: -4px;
+  transition: 0.2s;
+  color: white;
+}
+.sentence .video-about .v-link:hover .v-play {
+  background: none;
+}
+.sentence .video-about .v-link:hover .v-play i {
+  transition: 0.2s;
+  color: #232a72;
+}
+.sentence img {
+  border-radius: 4px;
+  transition: 0.2s;
+  border: 2px solid rgba(255, 255, 255, 0.7);
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+.sentence .t-desc {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  min-width: 100%;
+  padding: 0;
+}
+.sentence .t-desc h5 {
+  background-color: #E9C669;
+  color: #232a72;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  font-size: 22px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+}
+.sentence .t-desc p {
+  background-color: white;
+  height: 100%;
+  color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  font-size: 18px;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
 
 .video-slider {
   margin: 0;
@@ -70,51 +141,11 @@
 .video-slider .slick-dots li button:before {
   background-color: #232a72 !important;
 }
-.video-slider .slick-slide {
-  padding: 12px;
-  position: relative;
-  border: none;
-}
-.video-slider .slick-slide:hover img {
-  transition: 0.2s;
-  border: 2px solid white;
-  box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.4);
-}
-.video-slider .slick-slide:hover .v-link .v-play {
-  transition: 2s;
-  background-color: white;
-}
-.video-slider .slick-slide .v-link .v-play {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  height: 80px;
-  width: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: 0.2s;
-}
-.video-slider .slick-slide .v-link .v-play i {
-  font-size: 66px;
-  margin-right: -4px;
-  margin-bottom: -4px;
-  transition: 0.2s;
-  color: #232a72;
-}
-.video-slider .slick-slide .v-link:hover .v-play {
-  background: none;
-}
-.video-slider .slick-slide .v-link:hover .v-play i {
-  transition: 0.2s;
-  color: white;
-}
-.video-slider img {
-  border-radius: 4px;
-  transition: 0.2s;
-  border: 2px solid rgba(255, 255, 255, 0.7);
-  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+
+.sent-slider-gallery .slick-slide {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -124,28 +155,17 @@
   .sentence .t-desc {
     margin-bottom: 0;
   }
-  .sentence .t-desc p {
-    font-size: 14px;
-  }
-}
-@media only screen and (min-width: 1600px) {
-  .sentence .t-desc p {
-    font-size: 16px;
-  }
-}
-@media only screen and (min-width: 1700px) {
-  .sentence .t-desc p {
-    font-size: 21px;
-  }
-}
-@media only screen and (max-width: 1399px) {
-  .sentence .t-desc p {
-    font-size: 14px;
-  }
 }
 @media only screen and (max-width: 991px) {
   .sentence .t-desc {
     max-width: 679px;
+  }
+  .sentence .t-desc h5 {
+    font-size: 14px;
+  }
+  .sentence .t-desc p {
+    font-size: 14px;
+    padding: 5px;
   }
   .sentence .video-slider .slick-slide {
     display: flex;
@@ -157,6 +177,31 @@
   .sentence .video-slider .v-link .v-box {
     position: relative;
     max-width: 500px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .sentence .t h5 {
+    font-size: 20px;
+  }
+  .sentence .t p {
+    font-size: 18px;
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .sentence .t h5 {
+    font-size: 18px;
+  }
+  .sentence .t p {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 379px) {
+  .sentence .t h5 {
+    font-size: 17px;
+  }
+  .sentence .t p {
+    font-size: 14px;
   }
 }
 @media only screen and (max-width: 349px) {

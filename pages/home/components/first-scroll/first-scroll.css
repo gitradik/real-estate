@@ -17,6 +17,9 @@
   background-position: center;
   z-index: 0;
 }
+.first-scroll .bgtop {
+  z-index: 1;
+}
 .first-scroll .ct {
   position: relative;
   z-index: 2;
@@ -69,6 +72,7 @@
   text-align: center;
 }
 .first-scroll .t ul {
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 30px;
   max-width: 635px;
   margin: 0 auto;
@@ -77,7 +81,7 @@
 .first-scroll .t ul li {
   font-size: 18px;
   font-weight: 500;
-  color: #F8EB92;
+  color: black;
   margin-bottom: 10px;
 }
 .first-scroll .t ul li:last-child {
@@ -91,9 +95,11 @@
   background-color: #e7d885;
 }
 .first-scroll .t h1 {
-  color: #F8EB92;
-  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
-  font-weight: 900;
+  color: #E9C669;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 40px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  font-weight: 700;
 }
 .first-scroll .t h2 {
   margin: 30px 0;
@@ -105,7 +111,11 @@
 .first-scroll .t h3 {
   margin: 30px 0;
   font-size: 28px;
-  color: #F8EB92;
+  font-weight: 700;
+  background-color: rgba(248, 235, 146, 0.8);
+  padding: 30px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+  color: rgba(0, 0, 0, 0.8);
 }
 .first-scroll .t hr {
   margin-right: auto;
@@ -138,7 +148,7 @@
   font-weight: 400;
 }
 .first-scroll .t-sub h4 {
-  color: #F8EB92;
+  color: #E9C669;
   font-size: 22px;
   font-weight: 500;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.6);
@@ -198,7 +208,7 @@
   margin-bottom: 5px;
 }
 .first-scroll .static-header .stat-list .stat-tels a {
-  color: #F8EB92;
+  color: #E9C669;
   margin-bottom: 5px;
 }
 .first-scroll .static-header .stat-list .stat-tels a:last-child {
@@ -212,11 +222,15 @@
 }
 .first-scroll .static-header .stat-list .stat-social a {
   font-size: 25px;
-  color: #F8EB92;
+  color: #E9C669;
   margin-right: 10px;
 }
 .first-scroll .static-header .stat-list .stat-social a:last-child {
   margin-right: 0;
+}
+.first-scroll .static-header .stat-list .order button {
+  padding: 10px 20px;
+  font-size: 16px;
 }
 
 .cos {
@@ -254,6 +268,12 @@
   }
 }
 @media only screen and (max-width: 991px) {
+  .first-scroll {
+    padding-top: 80px;
+  }
+  .first-scroll .static-header {
+    display: none;
+  }
   .first-scroll .form-media {
     flex-direction: column;
   }
@@ -261,7 +281,7 @@
     padding-bottom: 30px;
   }
   .first-scroll .form-media input {
-    margin-bottom: 15px;
+    margin-bottom: 7px !important;
   }
   .first-scroll .form-media button {
     width: 100%;

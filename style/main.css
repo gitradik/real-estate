@@ -25,7 +25,7 @@ body {
   max-width: 100%;
 }
 .t h1 {
-  color: white;
+  color: black;
   font-size: 46px;
   font-weight: 600;
   background-position: center center;
@@ -73,28 +73,28 @@ body {
   font-size: 16px;
   font-weight: 700;
   transition: 0.3s;
-  border: 2px solid #F8EB92;
-  color: #F8EB92;
+  border: 2px solid #E9C669;
+  color: #E9C669;
   background-color: transparent;
 }
 .order button:hover {
   transition: 0.3s;
-  background: #F8EB92;
+  background: #E9C669;
   color: black;
 }
 
-.slider, .team-slider, .video-slider, .list-slider, .portfolio-slider, .list-min-slider, .list-min-slider-2, .slider-nav, .slider-nav-second, .slider-for-second {
+.slider, .team-slider, .video-slider, .list-slider, .portfolio-slider, .list-min-slider, .list-min-slider-2, .slider-nav, .slider-nav-second, .slider-for-second, .sent-slider-gallery {
   position: relative;
   max-width: 100%;
 }
-.slider img, .team-slider img, .video-slider img, .list-slider img, .portfolio-slider img, .list-min-slider img, .list-min-slider-2 img, .slider-nav img, .slider-nav-second img, .slider-for-second img {
+.slider img, .team-slider img, .video-slider img, .list-slider img, .portfolio-slider img, .list-min-slider img, .list-min-slider-2 img, .slider-nav img, .slider-nav-second img, .slider-for-second img, .sent-slider-gallery img {
   height: auto;
   max-width: 100%;
 }
-.slider .slick-dots, .team-slider .slick-dots, .video-slider .slick-dots, .list-slider .slick-dots, .portfolio-slider .slick-dots, .list-min-slider .slick-dots, .list-min-slider-2 .slick-dots, .slider-nav .slick-dots, .slider-nav-second .slick-dots, .slider-for-second .slick-dots {
+.slider .slick-dots, .team-slider .slick-dots, .video-slider .slick-dots, .list-slider .slick-dots, .portfolio-slider .slick-dots, .list-min-slider .slick-dots, .list-min-slider-2 .slick-dots, .slider-nav .slick-dots, .slider-nav-second .slick-dots, .slider-for-second .slick-dots, .sent-slider-gallery .slick-dots {
   bottom: -35px;
 }
-.slider .slick-dots li button:before, .team-slider .slick-dots li button:before, .video-slider .slick-dots li button:before, .list-slider .slick-dots li button:before, .portfolio-slider .slick-dots li button:before, .list-min-slider .slick-dots li button:before, .list-min-slider-2 .slick-dots li button:before, .slider-nav .slick-dots li button:before, .slider-nav-second .slick-dots li button:before, .slider-for-second .slick-dots li button:before {
+.slider .slick-dots li button:before, .team-slider .slick-dots li button:before, .video-slider .slick-dots li button:before, .list-slider .slick-dots li button:before, .portfolio-slider .slick-dots li button:before, .list-min-slider .slick-dots li button:before, .list-min-slider-2 .slick-dots li button:before, .slider-nav .slick-dots li button:before, .slider-nav-second .slick-dots li button:before, .slider-for-second .slick-dots li button:before, .sent-slider-gallery .slick-dots li button:before {
   content: "";
   border: 1px solid white;
   width: 25px;
@@ -104,12 +104,12 @@ body {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   background-color: #232a72;
 }
-.slider .slick-dots li .active:before, .team-slider .slick-dots li .active:before, .video-slider .slick-dots li .active:before, .list-slider .slick-dots li .active:before, .portfolio-slider .slick-dots li .active:before, .list-min-slider .slick-dots li .active:before, .list-min-slider-2 .slick-dots li .active:before, .slider-nav .slick-dots li .active:before, .slider-nav-second .slick-dots li .active:before, .slider-for-second .slick-dots li .active:before {
+.slider .slick-dots li .active:before, .team-slider .slick-dots li .active:before, .video-slider .slick-dots li .active:before, .list-slider .slick-dots li .active:before, .portfolio-slider .slick-dots li .active:before, .list-min-slider .slick-dots li .active:before, .list-min-slider-2 .slick-dots li .active:before, .slider-nav .slick-dots li .active:before, .slider-nav-second .slick-dots li .active:before, .slider-for-second .slick-dots li .active:before, .sent-slider-gallery .slick-dots li .active:before {
   transition: 0.2s;
   background: #232a72;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.7);
 }
-.slider .arrow-slider, .team-slider .arrow-slider, .video-slider .arrow-slider, .list-slider .arrow-slider, .portfolio-slider .arrow-slider, .list-min-slider .arrow-slider, .list-min-slider-2 .arrow-slider, .slider-nav .arrow-slider, .slider-nav-second .arrow-slider, .slider-for-second .arrow-slider {
+.slider .arrow-slider, .team-slider .arrow-slider, .video-slider .arrow-slider, .list-slider .arrow-slider, .portfolio-slider .arrow-slider, .list-min-slider .arrow-slider, .list-min-slider-2 .arrow-slider, .slider-nav .arrow-slider, .slider-nav-second .arrow-slider, .slider-for-second .arrow-slider, .sent-slider-gallery .arrow-slider {
   border: 0;
   outline: none;
   position: absolute;
@@ -120,27 +120,27 @@ body {
   transition: 2s;
   background-color: transparent;
 }
-.slider .arrow-slider i, .team-slider .arrow-slider i, .video-slider .arrow-slider i, .list-slider .arrow-slider i, .portfolio-slider .arrow-slider i, .list-min-slider .arrow-slider i, .list-min-slider-2 .arrow-slider i, .slider-nav .arrow-slider i, .slider-nav-second .arrow-slider i, .slider-for-second .arrow-slider i {
+.slider .arrow-slider i, .team-slider .arrow-slider i, .video-slider .arrow-slider i, .list-slider .arrow-slider i, .portfolio-slider .arrow-slider i, .list-min-slider .arrow-slider i, .list-min-slider-2 .arrow-slider i, .slider-nav .arrow-slider i, .slider-nav-second .arrow-slider i, .slider-for-second .arrow-slider i, .sent-slider-gallery .arrow-slider i {
   font-size: 20px;
   transition: 0.2s;
   color: black;
 }
-.slider .arrow-slider:hover, .team-slider .arrow-slider:hover, .video-slider .arrow-slider:hover, .list-slider .arrow-slider:hover, .portfolio-slider .arrow-slider:hover, .list-min-slider .arrow-slider:hover, .list-min-slider-2 .arrow-slider:hover, .slider-nav .arrow-slider:hover, .slider-nav-second .arrow-slider:hover, .slider-for-second .arrow-slider:hover {
+.slider .arrow-slider:hover, .team-slider .arrow-slider:hover, .video-slider .arrow-slider:hover, .list-slider .arrow-slider:hover, .portfolio-slider .arrow-slider:hover, .list-min-slider .arrow-slider:hover, .list-min-slider-2 .arrow-slider:hover, .slider-nav .arrow-slider:hover, .slider-nav-second .arrow-slider:hover, .slider-for-second .arrow-slider:hover, .sent-slider-gallery .arrow-slider:hover {
   transition: 2s;
 }
-.slider .arrow-slider:hover i, .team-slider .arrow-slider:hover i, .video-slider .arrow-slider:hover i, .list-slider .arrow-slider:hover i, .portfolio-slider .arrow-slider:hover i, .list-min-slider .arrow-slider:hover i, .list-min-slider-2 .arrow-slider:hover i, .slider-nav .arrow-slider:hover i, .slider-nav-second .arrow-slider:hover i, .slider-for-second .arrow-slider:hover i {
+.slider .arrow-slider:hover i, .team-slider .arrow-slider:hover i, .video-slider .arrow-slider:hover i, .list-slider .arrow-slider:hover i, .portfolio-slider .arrow-slider:hover i, .list-min-slider .arrow-slider:hover i, .list-min-slider-2 .arrow-slider:hover i, .slider-nav .arrow-slider:hover i, .slider-nav-second .arrow-slider:hover i, .slider-for-second .arrow-slider:hover i, .sent-slider-gallery .arrow-slider:hover i {
   transition: 0.2s;
   color: #232a72;
 }
-.slider .prev-arrow, .team-slider .prev-arrow, .video-slider .prev-arrow, .list-slider .prev-arrow, .portfolio-slider .prev-arrow, .list-min-slider .prev-arrow, .list-min-slider-2 .prev-arrow, .slider-nav .prev-arrow, .slider-nav-second .prev-arrow, .slider-for-second .prev-arrow {
+.slider .prev-arrow, .team-slider .prev-arrow, .video-slider .prev-arrow, .list-slider .prev-arrow, .portfolio-slider .prev-arrow, .list-min-slider .prev-arrow, .list-min-slider-2 .prev-arrow, .slider-nav .prev-arrow, .slider-nav-second .prev-arrow, .slider-for-second .prev-arrow, .sent-slider-gallery .prev-arrow {
   z-index: 20;
   left: -40px;
 }
-.slider .next-arrow, .team-slider .next-arrow, .video-slider .next-arrow, .list-slider .next-arrow, .portfolio-slider .next-arrow, .list-min-slider .next-arrow, .list-min-slider-2 .next-arrow, .slider-nav .next-arrow, .slider-nav-second .next-arrow, .slider-for-second .next-arrow {
+.slider .next-arrow, .team-slider .next-arrow, .video-slider .next-arrow, .list-slider .next-arrow, .portfolio-slider .next-arrow, .list-min-slider .next-arrow, .list-min-slider-2 .next-arrow, .slider-nav .next-arrow, .slider-nav-second .next-arrow, .slider-for-second .next-arrow, .sent-slider-gallery .next-arrow {
   right: -40px;
   z-index: 20;
 }
-.slider .slick-slide, .team-slider .slick-slide, .video-slider .slick-slide, .list-slider .slick-slide, .portfolio-slider .slick-slide, .list-min-slider .slick-slide, .list-min-slider-2 .slick-slide, .slider-nav .slick-slide, .slider-nav-second .slick-slide, .slider-for-second .slick-slide {
+.slider .slick-slide, .team-slider .slick-slide, .video-slider .slick-slide, .list-slider .slick-slide, .portfolio-slider .slick-slide, .list-min-slider .slick-slide, .list-min-slider-2 .slick-slide, .slider-nav .slick-slide, .slider-nav-second .slick-slide, .slider-for-second .slick-slide, .sent-slider-gallery .slick-slide {
   margin: 0 10px;
   margin-bottom: 10px;
 }

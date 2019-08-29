@@ -172,6 +172,9 @@
   bottom: -22px;
   transform: translateX(-50%);
 }
+.info .order button:hover {
+  color: white;
+}
 .info .order .order-box {
   padding: 20px;
   display: flex;

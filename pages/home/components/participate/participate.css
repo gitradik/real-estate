@@ -9,15 +9,17 @@
   background-size: cover;
 }
 .participate .part-card {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
   height: 100%;
-  padding-top: 76px;
   display: flex;
   align-items: center;
+  justify-content: center;
   flex: 1;
-  flex-direction: column;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0.4);
   border-radius: 0;
-  margin: 10px 0;
   border: 1px solid #ebebeb;
 }
 .participate .part-card .gradient-box {
@@ -42,8 +44,9 @@
   border-top-right-radius: 2px;
 }
 .participate .part-card h4 {
-  padding-top: 15px;
-  border-top: 1px solid #ebebeb;
+  border: 1px solid #ebebeb;
+  padding: 30px;
+  background-color: white;
   text-align: center;
   font-weight: 400;
   font-size: 20px;
@@ -88,51 +91,14 @@
   font-size: 22px;
 }
 
-@media only screen and (min-width: 576px) {
-  .participate .part-card img {
-    display: none;
-  }
-}
-@media only screen and (min-width: 992px) {
-  .part-offer-3 {
-    padding-bottom: 50px;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .part-offer-3 {
-    padding-bottom: 100px;
-  }
-}
 @media only screen and (max-width: 1199px) {
-  .participate .part-card {
-    padding-top: 56px;
-  }
   .participate .part-card h4 {
     font-size: 18px;
   }
-  .participate .part-card .part-img {
-    width: 150px;
-    height: 150px;
-  }
-}
-@media only screen and (max-width: 991px) {
-  .part-offer .t {
-    padding: 25px;
-  }
-  .part-offer .t h3 {
-    font-size: 28px;
-  }
-  .part-offer .t h3 span {
-    font-size: 24px;
-    font-weight: 900;
-  }
 }
 @media only screen and (max-width: 575px) {
-  .participate .part-card .part-img {
-    min-height: 160px;
-  }
   .participate .part-card h4 {
-    font-size: 20px;
+    font-size: 14px;
   }
 }
 
