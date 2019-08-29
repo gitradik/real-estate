@@ -2,70 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc40cbf9-9162-4175-9fb4-4f0320cf1a63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/about/1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/about/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/about/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/about/4.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/steps/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/steps/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/steps/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/steps/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/steps/4.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/steps/4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/steps/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/steps/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/steps/7.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/steps/7.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/steps/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll-media.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/info/youwillget.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/info/youwillget.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/info/youwillget.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/info/youwillget.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/info/youwillget.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/info/youwillget.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/list/list-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list-media.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/list/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/list/list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/list/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/list/list.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/navbar/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/navbar.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/navbar/navbar.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/navbar.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/navbar/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/navbar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/navbar/navbar.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/navbar.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form-media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form/open-form-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form/open-form-media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form/open-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form/open-form.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form/open-form.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form/open-form.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form/open-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form/open-form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form/open-form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form/open-form.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/participate/participate-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/participate/participate-media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/participate/participate.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/participate/participate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/participate/participate.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/participate/participate.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/participate/participate.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/participate/participate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/participate/participate.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/participate/participate.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/sentence/sentence-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/sentence/sentence-media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/sentence/sentence.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/sentence/sentence.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/sentence/sentence.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/sentence/sentence.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/sentence/sentence.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/sentence/sentence.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/sentence/sentence.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/sentence/sentence.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/team/participate.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/team/participate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/work/participate-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/work/participate-media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/work/participate.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/work/participate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/work/participate.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/work/participate.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/work/participate.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/work/participate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/work/participate.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/work/participate.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/home.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/home.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/data.sass" beforeDir="false" afterPath="$PROJECT_DIR$/style/data.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/style/main.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +134,7 @@
       <workItem from="1567011938995" duration="344000" />
       <workItem from="1567012785248" duration="2445000" />
       <workItem from="1567051109861" duration="9404000" />
-      <workItem from="1567072187168" duration="238000" />
+      <workItem from="1567072187168" duration="1911000" />
     </task>
     <servers />
   </component>

@@ -15,7 +15,7 @@
     </div>
 
     <script>
-        const orderLoader = document.getElementById('pageLoaderId');
+        var orderLoader = document.getElementById('pageLoaderId');
         orderLoader.classList.remove('d-none');
     </script>
 
@@ -41,7 +41,6 @@
     ?>
 
     <script>
-        //const orderLoader = document.getElementById('pageLoaderId');
         orderLoader.classList.add('d-none');
     </script>
 

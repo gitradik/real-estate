@@ -33,7 +33,7 @@
     <div class="bg bgtop"></div>
     <div class="bg bgshan"  style="background-image: url('<?= get_template_directory_uri(); ?>/images/photo_2018-07-18_16-45-33.jpg')"></div>
     <div class="container-fluid ct mb-auto">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center py-4" style="background-color: rgba(0,0,0,.5)">
             <div class="col-md-8">
                 <div class="t" data-aos="zoom-in" data-aos-duration="800">
                     <div class="t-box">

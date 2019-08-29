@@ -17,14 +17,14 @@
                 </div>
             </div>
 
-            <div class="col-md-12">
+           <!-- <div class="col-md-12">
                 <div class="list-item" data-aos="fade-left" data-aos-duration="1000">
                     <h4>Первичный рынок<br>
                         <span>Уникальные предложения от застройщиков</span>
                     </h4>
                 </div>
             </div>
-
+-->
             <div class="col-md-12 mb-5" data-aos="zoom-in-down" data-aos-offset="30" data-aos-duration="1200">
 
                 <div class="slider-for">
@@ -34,22 +34,12 @@
                     <div>
                         <div class="list-item">
                             <div class="list-item-body">
-                                <div class="row">
+                                <div class="row w-100">
                                     <div class="col-md-6">
                                         <div class="zoom-gallery" style="background-image: url('<?= $market->preview_img; ?>')">
-                                            <div>
-                                                <a href="<?= $market->preview_img; ?>" title="<?= $market->name; ?>">
-                                                </a>
-                                            </div>
-
-                                            <?php
-                                            foreach ($market->images as $item):
-                                                ?>      <div>
-                                                <a href="<?= $item; ?>" title="<?= $market->name; ?>">
-                                                    <img src="<?= $item; ?>" alt="<?= $market->name; ?>">
-                                                </a>
-                                            </div>
-                                            <?php endforeach; ?>
+                                            <a class="list-item-link" href="<?= $market->preview_img; ?>" title="<?= $market->name; ?>">
+                                                <img src="<?= $market->preview_img; ?>" hidden alt="">
+                                            </a>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
