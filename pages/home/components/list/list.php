@@ -8,20 +8,6 @@
 <div id="listId" class="list" style="background-image: url('<?= get_template_directory_uri(); ?>/images/patt_diagonals.png')">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-12">
-                <div class="t" data-aos="fade-right" data-aos-duration="800">
-                    <h2>Наши Предложения</h2>
-                </div>
-            </div>
-
-           <!-- <div class="col-md-12">
-                <div class="list-item" data-aos="fade-left" data-aos-duration="1000">
-                    <h4>Первичный рынок<br>
-                        <span>Уникальные предложения от застройщиков</span>
-                    </h4>
-                </div>
-            </div>
--->
             <div class="col-md-12 mb-5" data-aos="zoom-in-down" data-aos-offset="30" data-aos-duration="1200">
 
                 <div class="slider-for">
@@ -32,6 +18,11 @@
                         <div class="list-item">
                             <div class="list-item-body">
                                 <div class="row w-100">
+                                    <div class="col-md-12">
+                                        <div class="t">
+                                            <h4><?php echo $market->mail_title; ?></h4>
+                                        </div>
+                                    </div>
                                     <div class="col-md-6">
                                         <div class="zoom-gallery" style="background-image: url('<?= $market->preview_img; ?>')">
                                             <a class="list-item-link" href="<?= $market->preview_img; ?>" title="<?= $market->name; ?>">
