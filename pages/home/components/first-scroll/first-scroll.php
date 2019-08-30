@@ -31,7 +31,7 @@
         </div>
     </div>
     <div class="container-fluid ct mb-auto">
-        <div class="row justify-content-center py-4 mt-5">
+        <div class="row justify-content-center py-4 mt-3">
             <div class="col-md-10">
                 <div class="t fs-t" style="background-image: url('<?= get_template_directory_uri(); ?>/images/photo_2018-07-18_16-45-33.jpg')" data-aos="zoom-in" data-aos-duration="800">
                     <div class="ram">
@@ -54,7 +54,6 @@
                     <ul>
                         <li> 3х дневный бесплатный тур</li>
                         <li> Ивестиции - получи доход от аренды</li>
-                        <li> 2350 лучших предложений апартаментов на берегу моря</li>
                         <li> Выгодные условия рассрочки прямо от застройщиков до 10 лет</li>
                     </ul>
                     <form method="POST" class="telegram" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="0">
@@ -65,8 +64,7 @@
                         <div class="d-flex align-items-center form-media">
                             <input class="mr-lg-2 mb-0" name="name" placeholder="Имя" type="text">
                             <input class="mr-lg-2 mb-0 input-mask-s" name="phone" placeholder="Телефон" type="text">
-                            <button data-toggle="modal" data-target="#formModal"
-                                    onclick="onClickFormModal('Получить подбор недвижемости', 'formModalLongTitle', 'Первый скролл => Получить', 'formInputHiddenId')">Получить</button>
+                            <button >Получить</button>
                         </div>
                     </form>
                 </div>

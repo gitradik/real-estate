@@ -78,6 +78,7 @@
   margin: 0 auto;
   margin-bottom: 25px;
   border: 2px solid rgba(233, 198, 105, 0.7);
+  text-align: left;
 }
 .first-scroll .t ul li {
   font-size: 20px;
@@ -279,6 +280,11 @@
 @media only screen and (min-width: 1200px) {
   .first-scroll .order {
     margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .first-scroll .fs-t {
+    padding: 50px;
   }
 }
 @media only screen and (max-width: 1199px) {

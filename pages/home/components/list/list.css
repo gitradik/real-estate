@@ -93,6 +93,10 @@
 }
 .list .list-item .list-item-body .list-item-desc .list-item-desc-text {
   padding-top: 20px;
+  text-align: left;
+}
+.list .list-item .list-item-body .list-item-desc .list-item-desc-text p {
+  text-align: left;
 }
 .list .list-item .list-item-body .list-slider {
   max-width: 550px;
@@ -117,7 +121,6 @@
   text-align: center;
   margin-top: auto;
   font-size: 16px;
-  height: 303px;
   max-height: 280px;
   overflow-y: scroll;
   line-height: 25px;
@@ -217,12 +220,18 @@
     margin-bottom: 50px;
   }
 }
+@media only screen and (max-width: 1280px) {
+  .list .list-item .list-item-body p {
+    max-height: 236px;
+  }
+  .list .list-item .list-item-body .zoom-gallery {
+    min-height: auto;
+    height: 340px;
+  }
+}
 @media only screen and (max-width: 1199px) {
   .list .t p {
     font-size: 20px;
-  }
-  .list .list-item .list-item-body .zoom-gallery {
-    min-height: 350px;
   }
   .list .list-item .list-item-body img {
     max-width: 100%;
@@ -232,6 +241,9 @@
   }
 }
 @media only screen and (max-width: 991px) {
+  .list .slider-for {
+    padding: 5px;
+  }
   .list .list-min-slider-2 {
     max-width: 100%;
   }
@@ -255,6 +267,9 @@
   }
   .list .list-item .list-item-body .list-slider {
     max-width: 100%;
+  }
+  .list .slider-nav {
+    padding: 5px;
   }
   .list .slider-nav .slick-dots {
     bottom: -68px;

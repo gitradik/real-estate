@@ -4,7 +4,7 @@
         <?= include 'done.css'; ?>
     </style>
 
-    <div class="done" style="background-image: url('<?= get_template_directory_uri(); ?>/images/photoeditorsdk.png')">
+    <div class="done" style="background-image: url('<?= get_template_directory_uri();?>/images/main_BG.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 d-flex align-items-center justify-content-center">

@@ -2,7 +2,7 @@
     <?= include 'open-form.css'?>
 </style>
 
-<!--<div class="open-form-2" style="background-image: url('<?/*= get_template_directory_uri(); */?>/images/back-opfm-2.png')">
+<div class="open-form-2" style="background-image: url('<?= get_template_directory_uri(); ?>/images/back-opfm-2.png')">
     <div class="bg"></div>
     <div class="container ct">
         <div class="row">
@@ -37,4 +37,4 @@
             </div>
         </div>
     </div>
-</div>-->
+</div>
