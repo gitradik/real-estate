@@ -3,22 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="fc40cbf9-9162-4175-9fb4-4f0320cf1a63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/done/done.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/done/done.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll-media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/first-scroll/first-scroll.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/list/list-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list-media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/list/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/list/list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/list/list.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/prod_1_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/product/prod_1_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/product/prod_3_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/product/prod_3_1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/list/data.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/data.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/team/participate.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/team/participate.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/team/participate.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/team/participate.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/team/participate.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/team/participate.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/team/participate.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/team/participate.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -139,7 +127,7 @@
       <workItem from="1567051109861" duration="9404000" />
       <workItem from="1567072187168" duration="11210000" />
       <workItem from="1567096481722" duration="1443000" />
-      <workItem from="1567172147059" duration="1393000" />
+      <workItem from="1567172147059" duration="4550000" />
     </task>
     <servers />
   </component>
