@@ -37,10 +37,18 @@
   color: white;
   text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.4);
 }
+.open-form .video-slide-show {
+  position: relative;
+}
+.open-form .video-slide-show img {
+  border-radius: 3px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.3);
+}
 .open-form form {
   width: 100%;
   position: relative;
   padding: 30px 20px;
+  margin-top: 20px;
 }
 .open-form form .t {
   display: flex;
@@ -51,6 +59,20 @@
   color: #e7d885;
   line-height: 30px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+}
+.open-form form .form-row {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+.open-form form .form-row input {
+  margin: 0;
+  margin-right: 5px;
+  display: inline-block;
+}
+.open-form form .form-row button {
+  margin: 0;
 }
 .open-form .br-t, .open-form .br-b, .open-form .br-l, .open-form .br-r {
   position: absolute;

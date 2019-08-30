@@ -3,10 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="fc40cbf9-9162-4175-9fb4-4f0320cf1a63" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/product/prod_1_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/product/prod_1_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/product/prod_3_1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/product/prod_3_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/list/data.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/data.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form-2/open-form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/albena-beach-bulgaria.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/albena-beach-bulgaria.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form/open-form.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form/open-form.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form/open-form.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form/open-form.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form/open-form.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form/open-form.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/open-form/open-form.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/open-form/open-form.sass" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,7 +128,7 @@
       <workItem from="1567051109861" duration="9404000" />
       <workItem from="1567072187168" duration="11210000" />
       <workItem from="1567096481722" duration="1443000" />
-      <workItem from="1567172147059" duration="4550000" />
+      <workItem from="1567172147059" duration="5290000" />
     </task>
     <servers />
   </component>

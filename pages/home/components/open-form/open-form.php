@@ -37,22 +37,33 @@
                 </div>
             </div>
             <div style="position: relative; z-index: 4" class="col-lg-6 pl-lg-4 mt-5 mt-lg-0  d-flex align-items-center justify-content-center">
-                <form class="telegram" data-aos="fade-left" data-aos-duration="1000">
+                <div class="video-slide-show" data-aos="fade-left" data-aos-duration="1000">
+
+
                     <div class="br-t"></div>
+                    <div class="br-b"></div>
+                    <div class="br-l"></div>
+                    <div class="br-r"></div>
+                    <img class="img-fluid" src="<?= get_template_directory_uri();?>/images/product/prod_3_5.jpg" alt="">
+                </div>
+
+            </div>
+            <div style="position: relative; z-index: 4"  class="col-md-12">
+                <form class="telegram" data-aos="fade-up" data-aos-duration="1000">
+
                     <div class="br-b"></div>
                     <div class="br-l"></div>
                     <div class="br-r"></div>
                     <input type="hidden" name="location" value="От дизайн-проекта к производству мебели">
                     <div class="t pb-3">
-                        <h5>Заполните форму ниже и получите
-
-                            каталог горячих предложений и консультацию менеджера БЕСПЛАТНО</h5>
+                        <h5>  Заполните форму ниже и посмотрите более 30 объектов в течении</h5>
                     </div>
-                    <input type="text" name="name" placeholder="Ваше Имя">
-                    <input class="input-mask-s" type="tel" name="phone" placeholder="Ваш Телефон*" required>
-                    <button>Заказать</button>
+                    <div class="form-row">
+                        <input type="text" name="name" placeholder="Ваше Имя">
+                        <input class="input-mask-s" type="tel" name="phone" placeholder="Ваш Телефон*" required>
+                        <button>Заказать</button>
+                    </div>
                 </form>
-
             </div>
         </div>
     </div>
