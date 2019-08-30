@@ -49,7 +49,7 @@
 
             </div>
             <div style="position: relative; z-index: 4"  class="col-md-12">
-                <form class="telegram" data-aos="fade-up" data-aos-duration="1000">
+                <form class="telegram form-media" data-aos="fade-up" data-aos-duration="1000">
 
                     <div class="br-b"></div>
                     <div class="br-l"></div>

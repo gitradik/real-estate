@@ -134,8 +134,14 @@
   .open-form .check-list .check-item p {
     font-size: 20px;
   }
-  .open-form form input, .open-form form button {
+  .open-form form .form-row {
+    flex-direction: column;
+  }
+  .open-form form .form-row input, .open-form form .form-row button {
     font-size: 16px;
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
   }
   .open-form form .t h5 {
     max-width: 500px;
