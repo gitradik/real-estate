@@ -7,7 +7,7 @@
         <div class="row">
             <div style="position: relative; z-index: 4" class="col-md-12">
                 <div class="t" data-aos="fade-right" data-aos-duration="800">
-                    <h2>Компания Golden Elephant приглашает Вас на смотровой тур в Болгарию </h2>
+                    <h2>Заказать бесплатный тур </h2>
 
                 </div>
             </div>

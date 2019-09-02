@@ -34,6 +34,19 @@
   transition: 0.2s;
   color: rgba(255, 255, 255, 0.7);
 }
+.navbar .navbar-nav .nav-item-soc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar .navbar-nav .nav-item-soc a {
+  margin-right: 10px;
+  color: #E9C669;
+  font-size: 26px;
+}
+.navbar .navbar-nav .nav-item-soc a:last-child {
+  margin-right: 0;
+}
 .navbar .navbar-nav .nav-order {
   display: flex;
   flex-direction: column;
@@ -98,6 +111,9 @@
   }
   .navbar .navbar-nav .nav-item .nav-link {
     display: inline-block;
+  }
+  .navbar .navbar-nav .nav-item-soc {
+    padding-top: 10px;
   }
   .navbar .navbar-nav .nav-order .nav-number {
     left: 0;

@@ -36,6 +36,14 @@
                     onclick="onClickFormModal('Заказать звонок', 'formModalLongTitle', 'Шапка сайта', 'formInputHiddenId')"
                 >Заказать звонок</a>
             </li>
+            <li class="nav-item nav-item-soc">
+                <a target="_blank" href="https://wa.me/380997669525">
+                    <i class="fab fa-whatsapp"></i>
+                </a>
+                <a target="_blank" href="viber://add?number=380997669525">
+                    <i class="fab fa-viber"></i>
+                </a>
+            </li>
         </ul>
     </div>
 </nav>
