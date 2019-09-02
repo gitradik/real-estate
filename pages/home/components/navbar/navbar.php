@@ -2,7 +2,7 @@
     <?= include 'navbar.css'; ?>
 </style>
 
-<nav id="mainNavbarId" class="navbar navbar-expand-lg navbar-light">
+<nav id="mainNavbarId" class="navbar navbar-expand-lg navbar-light" style="background-image: url('<?= get_template_directory_uri();?>/images/main_BG.jpg')">
     <a class="navbar-brand" href="/">
         <img src="<?= get_template_directory_uri(); ?>/images/logo.png" alt="logo">
     </a>

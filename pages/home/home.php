@@ -21,6 +21,7 @@
 
     <?php
         require_once get_template_directory() . '/pages/home/components/form-modal/form-modal.php';
+        require_once get_template_directory() . '/pages/home/components/form-modal-special/form-modal-special.php';
         require_once get_template_directory() . '/pages/home/components/navbar/navbar.php';
         require_once get_template_directory() . '/pages/home/components/first-scroll/first-scroll.php';
         require_once get_template_directory() . '/pages/home/components/sentence/sentence.php';
@@ -31,6 +32,7 @@
         require_once get_template_directory() . '/pages/home/components/list/list.php';
         require_once get_template_directory() . '/pages/home/components/open-form-2/open-form.php';
         require_once get_template_directory() . '/pages/home/components/participate/participate.php';
+        require_once get_template_directory() . '/pages/home/components/installments/installments.php';
         require_once get_template_directory() . '/pages/home/components/team/participate.php';
         /*require_once get_template_directory() . '/pages/home/components/companies/companies.php';*/
       /*  require_once get_template_directory() . '/pages/home/components/work/participate.php';*/

@@ -5,6 +5,9 @@
   transition: 0.2s;
   background-color: rgba(0, 0, 0, 0.5);
   transform: translateY(-100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .navbar .navbar-brand {
   padding: 0;

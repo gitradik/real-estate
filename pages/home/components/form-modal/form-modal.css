@@ -6,20 +6,32 @@
 }
 .form-modal .modal-content {
   border-radius: 4px;
-  max-width: 370px;
+  background-color: black;
+  max-width: 375px;
 }
 .form-modal .modal-header {
   border-bottom: 0;
   border-radius: 0;
 }
 .form-modal .modal-header .modal-title {
-  font-size: 20px;
+  color: white;
+  font-size: 22px;
   font-weight: 700;
   text-align: center;
   width: 100%;
 }
+.form-modal .modal-header button span {
+  color: white;
+}
+.form-modal form .t {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
 .form-modal form .t p {
   font-size: 20px;
+  color: white !important;
 }
 .form-modal form input {
   text-align: center;
@@ -30,34 +42,32 @@
   padding: 20px 10px;
   font-size: 20px;
   font-weight: 300;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  color: black;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  color: white;
+  background-color: transparent;
   margin-bottom: 15px;
 }
 .form-modal form input::placeholder {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(255, 255, 255, 0.8);
 }
 .form-modal form button {
   outline: none;
   text-transform: uppercase;
   padding: 20px 50px;
-  border-radius: 30px;
+  border-radius: 3px;
   font-size: 18px;
   font-weight: 700;
   transition: 0.3s;
   border: 2px solid transparent;
   color: black;
-  background: #fbb36c;
-  background: -moz-linear-gradient(45deg, #fbb36c 0%, #fbf6b8 50%, #fbf6b8 51%, #fbb36c 100%);
-  background: -webkit-linear-gradient(45deg, #fbb36c 0%, #fbf6b8 50%, #fbf6b8 51%, #fbb36c 100%);
-  background: linear-gradient(45deg, #fbb36c 0%, #fbf6b8 50%, #fbf6b8 51%, #fbb36c 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr="#fbb36c", endColorstr="#fbb36c",GradientType=1 );
+  background-color: #E9C669;
 }
 .form-modal form button:hover {
   transition: 0.3s;
   background: transparent;
-  color: #fbb36c;
-  border-color: #fbb36c;
+  color: #E9C669;
+  border-color: #E9C669;
 }
 .form-modal form .t {
   padding: 30px 0;

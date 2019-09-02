@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fc40cbf9-9162-4175-9fb4-4f0320cf1a63" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/home/components/get/get-media.sass" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/home/components/get/get.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/home/components/get/get.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/list/list-media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list-media.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/list/list.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/list/list.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/list/list.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/home/components/list/list.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/list/list.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/form-modal/form-modal.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/form-modal/form-modal.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/form-modal/form-modal.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/form-modal/form-modal.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/form-modal/form-modal.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/form-modal/form-modal.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/get/get.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/get/get.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/get/get.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/get/get.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/get/get.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/get/get.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/get/get.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/get/get.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/navbar/navbar.css" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/navbar.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/navbar/navbar.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/navbar.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/navbar/navbar.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/navbar.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/home/components/navbar/navbar.sass" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/components/navbar/navbar.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/home.php" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,6 +54,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/pages/home/components" />
       <recent name="$PROJECT_DIR$/images/about" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -132,7 +136,9 @@
       <workItem from="1567051109861" duration="9404000" />
       <workItem from="1567072187168" duration="11210000" />
       <workItem from="1567096481722" duration="1443000" />
-      <workItem from="1567172147059" duration="7575000" />
+      <workItem from="1567172147059" duration="11718000" />
+      <workItem from="1567240487543" duration="593000" />
+      <workItem from="1567446745692" duration="2479000" />
     </task>
     <servers />
   </component>
