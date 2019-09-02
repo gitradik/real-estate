@@ -20,10 +20,10 @@
                 <a class="nav-link smooth-anchor" href="#aboutId">О нас</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link smooth-anchor" href="#listId">Предложения</a>
+                <a class="nav-link smooth-anchor" href="#openFormId_">Смотровой тур</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link smooth-anchor" href="#portfolioId">Портфолио</a>
+                <a class="nav-link smooth-anchor" href="#listId">Предложения</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link smooth-anchor" href="#reviewsId">Отзывы</a>

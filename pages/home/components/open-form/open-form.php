@@ -2,7 +2,7 @@
     <?= include 'open-form.css'?>
 </style>
 
-<div class="open-form" style="background-image: url('<?= get_template_directory_uri(); ?>/images/albena-beach-bulgaria.jpg')">
+<div id="openFormId_" class="open-form" style="background-image: url('<?= get_template_directory_uri(); ?>/images/albena-beach-bulgaria.jpg')">
     <div class="container ct">
         <div class="row">
             <div style="position: relative; z-index: 4" class="col-md-12">
